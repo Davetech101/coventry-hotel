@@ -48,6 +48,11 @@ const SServices = styled.section`
     color:#fff;
     border-radius:2rem;
     padding:1rem 1.5rem;
+    transition:all .4s;
+  }
+
+  main button:hover {
+    background: #125412;
   }
 
   @media only screen and (min-width: 550px) {

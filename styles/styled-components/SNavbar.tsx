@@ -131,13 +131,14 @@ const SNavbar = styled.main`
     text-align: center;
     font-size: 4rem;
   }
-
+  
   main button {
     background: #1b361b;
     color: #fff;
     border-radius: 2rem;
     padding: 1.5rem 3rem;
     margin-top: 2.5rem;
+    transition: all 0.4s;
   }
 
   main button:hover {
@@ -200,7 +201,6 @@ const SNavbar = styled.main`
     border-radius: 2rem;
     font-size: 1.5rem;
     margin-top: 2.5rem;
-    transition: all 0.4s;
   }
 `;
 
