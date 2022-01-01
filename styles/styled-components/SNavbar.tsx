@@ -193,7 +193,7 @@ const SNavbar = styled.main`
       color: #d2d2d2;
       text-align: unset;
       width: 100%;
-      font-size: 4rem;
+      font-size: 6rem;
     }
   }
 
