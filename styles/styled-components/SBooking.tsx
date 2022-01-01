@@ -45,13 +45,7 @@ const SBooking = styled.section`
 
   @media only screen and (min-width: 700px) {
     label {
-      font-size: 2rem;
-    }
-  }
-
-  @media only screen and (min-width: 700px) {
-    label {
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
 
     input {
@@ -72,8 +66,9 @@ const SBooking = styled.section`
       align-items: end;
       gap:2rem;
       margin-top:-10rem;
-      box-shadow:2px 2px 7px rgba(0,0,0,.5);
+      box-shadow:2px 2px 9px rgba(0,0,0,.2);
       background: #f2f2f2;
+     padding:1rem 4rem;
     }
 
     form > div{
