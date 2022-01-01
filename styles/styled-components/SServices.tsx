@@ -71,6 +71,23 @@ const SServices = styled.section`
     main div {
       width:30%;
     }
+
+    main svg{
+      font-size:8rem;
+    }
+  
+    main h3{
+      font-size:2.5rem;
+    }
+  
+    main p{
+      font-size:2rem;
+    }
+  
+    main button{
+      font-size:1.6rem;
+      padding:1.3rem 2rem;
+    }
   }
 
   @media only screen and (min-width: 1200px) {
