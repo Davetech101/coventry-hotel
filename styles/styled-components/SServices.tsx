@@ -14,7 +14,7 @@ const SServices = styled.section`
   main{
     display:flex;
     overflow-x:scroll;
-    box-shadow:2px 2px 10px rgba(0,0,0,.3);
+    box-shadow:2px 2px 10px rgba(0,0,0,.2);
     gap:2rem;
   }
 
