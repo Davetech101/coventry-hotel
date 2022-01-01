@@ -50,9 +50,21 @@ const SServices = styled.section`
     padding:1rem 1.5rem;
   }
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 550px) {
     main div {
       width:50%;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    main div {
+      width:40%;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    main div {
+      width:30%;
     }
   }
 `;
