@@ -67,6 +67,10 @@ const SServices = styled.section`
       width:30%;
     }
   }
+
+  @media only screen and (min-width: 1200px) {
+    padding: 4rem 0 4rem 15rem;
+  }
 `;
 
 export default SServices;
