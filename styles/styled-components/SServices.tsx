@@ -77,16 +77,16 @@ const SServices = styled.section`
     }
   
     main h3{
-      font-size:2.5rem;
+      font-size:2.2rem;
     }
   
     main p{
-      font-size:2rem;
+      font-size:1.8rem;
     }
   
     main button{
-      font-size:1.6rem;
-      padding:1.3rem 2rem;
+      font-size:1.4rem;
+      padding:1.2rem 1.8rem;
     }
   }
 
