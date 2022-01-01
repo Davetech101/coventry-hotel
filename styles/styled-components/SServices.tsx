@@ -49,6 +49,12 @@ const SServices = styled.section`
     border-radius:2rem;
     padding:1rem 1.5rem;
   }
+
+  @media only screen and (min-width: 600px) {
+    main div {
+      width:50%;
+    }
+  }
 `;
 
 export default SServices;
