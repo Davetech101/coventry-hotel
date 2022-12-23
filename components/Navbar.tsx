@@ -5,6 +5,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
+import SNavbar from "../styles/styled-components/SNavbar";
 
 const Navbar = () => {
   const [showDestinations, setShowDestinations] = useState(false);
@@ -25,7 +26,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <main className={scrolled ? "navbar scrolled" : "navbar"}>
+    <SNavbar className={scrolled ? "navbar scrolled" : "navbar"}>
       <div className="nav-container">
         <Link href="/">
           <div className="logo">HOTELL</div>
@@ -159,7 +160,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </main>
+    </SNavbar>
   );
 };
 
