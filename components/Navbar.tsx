@@ -28,9 +28,15 @@ const Navbar = () => {
   return (
     <SNavbar className={scrolled ? "navbar scrolled" : "navbar"}>
       <div className="nav-container">
-        <Link href="/">
-          <div className="logo">HOTELL</div>
-        </Link>
+        <div className="head">
+          <Link href="/">
+            <div className="logo">COVENTRY HOTELL</div>
+          </Link>
+
+          <button className="hamburger" onClick={() => setShowNav(true)}>
+            <GiHamburgerMenu color="#fff" size={30} />
+          </button>
+        </div>
 
         <ul className="ul">
           {links.map((link) => {
