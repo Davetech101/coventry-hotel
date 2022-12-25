@@ -22,8 +22,8 @@ min-height:90vh;
    }
 
    .close{
-      color:#fff;
-
+      z-index:10;
+      position:relative;
    }
 
    .modal{
@@ -53,7 +53,7 @@ min-height:90vh;
       padding:2rem;
       box-shadow:1px 1px 18px black;
       transition:all .5s;
-      transform:translate(-30rem, -30rem);
+      transform:translate(-30rem);
       opacity:0;
       visibility:hidden;
    }

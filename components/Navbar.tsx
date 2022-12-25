@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { RiArrowDropDownLine } from "react-icons/ri";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 import SNavbar from "../styles/styled-components/SNavbar";
@@ -30,12 +30,19 @@ const Navbar = () => {
           <div className="logo">COVENTRY HOTELL</div>
         </Link>
 
-        <button className="hamburger" onClick={() => setShowNav(true)}>
-          {showNav ? <GrClose color="#fff" size={30} className="close"/> : <GiHamburgerMenu color="#fff" size={30} />}
+        <button>
+          {showNav ? (
+            <AiOutlineCloseCircle color="#fff" size={30} className="close" onClick={() => setShowNav(false)}/>
+          ) : (
+            <GiHamburgerMenu color="#fff" size={30} onClick={() => setShowNav(true)}/>
+          )}
         </button>
       </div>
 
-      <div className={showNav ? "modal show" : "modal"} onClick={() => setShowNav(false)}></div>
+      <div
+        className={showNav ? "modal show" : "modal"}
+        onClick={() => setShowNav(false)}
+      ></div>
       <nav className={showNav ? "show" : ""}>
         <ul>
           {links.map((link) => {
@@ -52,6 +59,8 @@ const Navbar = () => {
           })}
         </ul>
       </nav>
+
+      <p>Once a year go someplace you&apos;ve never been before.</p>
     </SNavbar>
   );
 };
