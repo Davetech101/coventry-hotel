@@ -30,9 +30,9 @@ const Navbar = () => {
           <div className="logo">COVENTRY HOTELL</div>
         </Link>
 
-        <button>
+        <button className="toggle">
           {showNav ? (
-            <AiOutlineCloseCircle color="#fff" size={30} className="close" onClick={() => setShowNav(false)}/>
+            <AiOutlineCloseCircle color="#fff" size={30} onClick={() => setShowNav(false)}/>
           ) : (
             <GiHamburgerMenu color="#fff" size={30} onClick={() => setShowNav(true)}/>
           )}
@@ -60,7 +60,10 @@ const Navbar = () => {
         </ul>
       </nav>
 
-      <p>Once a year go someplace you&apos;ve never been before.</p>
+      <main className="main">
+      <p className="txt">Once a year go someplace you&apos;ve never been before.</p>
+      <button>See video</button>
+      </main>
     </SNavbar>
   );
 };

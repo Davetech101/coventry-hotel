@@ -4,10 +4,11 @@ import styled from 'styled-components'
 const SNavbar = styled.main`
 background-image:linear-gradient(to left, rgba(0,0,0, .6), rgba(0,0,0, .6)), url(/assets/Hero.jpg);
 background-size:cover;
-background-position:center;
+background-position:left;
 background-repeat:no-repeat;
 padding:2rem;
 min-height:90vh;
+position:relative;
 
    .head{
       display:flex;
@@ -21,7 +22,7 @@ min-height:90vh;
       font-family: 'Poppins', sans-serif;
    }
 
-   .close{
+   .toggle{
       z-index:10;
       position:relative;
    }
@@ -41,6 +42,7 @@ min-height:90vh;
    .modal.show{
       opacity:1;
       visibility:visible;
+      z-index:3;
    }
 
    nav{
@@ -56,6 +58,7 @@ min-height:90vh;
       transform:translate(-30rem);
       opacity:0;
       visibility:hidden;
+      z-index:10;
    }
 
    nav.show{
@@ -74,8 +77,30 @@ min-height:90vh;
       color:black;
    }
 
-   .tel{
-      font-size:2rem;
+   main{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-direction:column;
+      height:100%;
+      position:absolute;
+      top:50%;
+      transform:translate(0%, -50%);
+      z-index:0;
+   }
+
+   main p{
+      color:#d2d2d2;
+      text-align:center;
+      font-size:4rem;
+   }
+
+   main button{
+      background:green;
+      color:#fff;
+      border-radius:2rem;
+      padding:1.5rem 3rem;
+      margin-top:2.5rem;
    }
 `
 
