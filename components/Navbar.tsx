@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
@@ -25,7 +24,7 @@ const Navbar = () => {
 
   return (
     <SNavbar className={scrolled ? "navbar scrolled" : "navbar"}>
-      <div className="head">
+      <header>
         <Link href="/">
           <div className="logo">COVENTRY HOTELL</div>
         </Link>
@@ -37,7 +36,7 @@ const Navbar = () => {
             <GiHamburgerMenu color="#fff" size={30} onClick={() => setShowNav(true)}/>
           )}
         </button>
-      </div>
+      </header>
 
       <div
         className={showNav ? "modal show" : "modal"}
