@@ -10,13 +10,13 @@ padding:2rem;
 min-height:90vh;
 position:relative;
 
-   .head{
+   header{
       display:flex;
       justify-content:space-between;
       align-items:center;
    }
 
-   .head a{
+   header a{
       color:#fff;
       font-size:2rem;
       font-family: 'Poppins', sans-serif;
