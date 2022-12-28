@@ -1,15 +1,31 @@
 import styled from "styled-components";
 
 const SBooking = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-  justify-content:center;
-  padding:5rem 0;
+  padding:3rem 4rem;
+  background:#bebebe;
 
   input {
     display: block;
-    padding:2rem;
+    padding:1rem;
+    background:white;
+    margin-bottom:2rem;
+    border-radius:2rem;
+    width:100%;
+  }
+
+  label{
+    font-size:1.6rem;
+    display:block;
+    margin-bottom:1.2rem;
+  }
+
+  button{
+    display:block;
+    margin:0 auto;
+    background:green;
+    color:#fff;
+    border-radius:2rem;
+    padding:1.5rem 3rem;
   }
 `;
 export default SBooking;
