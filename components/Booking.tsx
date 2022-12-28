@@ -7,6 +7,7 @@ const Booking = () => {
       <form>
         <input type="date" />
         <input type="date" name="" id="" />
+        <input type="number" name="" id="" />
         <button>Book Now</button>
       </form>
     </SBooking>
