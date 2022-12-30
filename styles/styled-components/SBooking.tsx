@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 const SBooking = styled.section`
   padding:4rem 3rem;
-  background:#bebebe;
+  background:#f2f2f2e5;
+  box-shadow: 1px 1px 1px;
 
   input {
     display: block;
