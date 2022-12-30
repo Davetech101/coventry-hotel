@@ -1,14 +1,9 @@
 import React from "react";
 import SServices from "../styles/styled-components/SServices";
 
-import {
-  FaWalking,
-  GiTreasureMap,
-  RiSuitcase3Fill,
-  GiIsland,
-  GiWorld,
-  GiAirplaneDeparture,
-} from "react-icons/all";
+import { FaWalking } from "react-icons/fa";
+import { RiSuitcase3Fill } from "react-icons/ri"
+import { GiTreasureMap, GiIsland, GiAirplaneDeparture, GiWorld } from "react-icons/gi";
 
 const Services = () => {
   const arr: { name: string; age: number }[] = [
