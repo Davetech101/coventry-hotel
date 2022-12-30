@@ -2,15 +2,15 @@ import React from "react";
 import SServices from "../styles/styled-components/SServices";
 
 import { FaWalking } from "react-icons/fa";
-import { RiSuitcase3Fill } from "react-icons/ri"
-import { GiTreasureMap, GiIsland, GiAirplaneDeparture, GiWorld } from "react-icons/gi";
+import { RiSuitcase3Fill } from "react-icons/ri";
+import {
+  GiTreasureMap,
+  GiIsland,
+  GiAirplaneDeparture,
+  GiWorld,
+} from "react-icons/gi";
 
 const Services = () => {
-  const arr: { name: string; age: number }[] = [
-    { name: "Alice", age: 27 },
-    { name: "Bob", age: 28 },
-    { name: "Carl", age: 29 },
-  ];
   const services = [
     {
       icon: <FaWalking />,
@@ -55,6 +55,7 @@ const Services = () => {
             <h3>{service.title}</h3>
 
             <p>{service.txt}</p>
+            <button>Learn More</button>
           </div>
         ))}
       </main>
