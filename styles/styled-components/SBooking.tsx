@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SBooking = styled.section`
-  padding:3rem 4rem;
+  padding:4rem 3rem;
   background:#bebebe;
 
   input {
@@ -22,7 +22,7 @@ const SBooking = styled.section`
   button{
     display:block;
     margin:0 auto;
-    background:green;
+    background:#1b361b;
     color:#fff;
     border-radius:2rem;
     padding:1.5rem 3rem;
