@@ -4,6 +4,7 @@ import Services from '../components/Services'
 import styles from '../styles/Home.module.css'
 import Brusque from '../components/Brusque'
 import Blog from '../components/Blog'
+import Faq from '../components/Faq'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
      <Services/>
      <Brusque/>
      <Blog/>
+     <Faq/>
     </>
   )
 }

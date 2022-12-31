@@ -8,6 +8,7 @@ const SServices = styled.section`
     font-size: 3rem;
     color: #1b361b;
     margin-bottom: 3rem;
+    text-transform: uppercase;
   }
 
   main{

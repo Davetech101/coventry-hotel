@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import img from "../../public/assets/canoeride.jpg"
 
 const SBlog = styled.section`
   margin:4rem 0;
@@ -11,6 +10,7 @@ const SBlog = styled.section`
     margin-bottom: 3rem;
     padding:0 ;
     text-align:right;
+    text-transform: uppercase;
   }
 
   main{
