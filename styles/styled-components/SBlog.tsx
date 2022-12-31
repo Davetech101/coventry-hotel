@@ -19,12 +19,22 @@ const SBlog = styled.section`
     box-shadow:2px 2px 10px rgba(0,0,0,.3);
   }
 
-  main div {
-    padding: 2rem;
+  main > div {
+    padding: 1rem;
     flex-shrink:0;
     width:100%;
     min-height:20rem;
   }
 
+  .text{
+    background:rgba(00, 00, 00, .7);
+    padding:1rem;
+    color:#fff;
+  }
+
+  main button{
+    color:#fff;
+    margin-top:1rem;
+  }
 `;
 export default SBlog;

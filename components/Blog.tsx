@@ -30,13 +30,15 @@ const Blog = () => {
           <div
             key={idx}
             style={{
-              background:`linear-gradient(to left, rgba(0,0,0, .6), rgba(0,0,0, .6)), url(${post.img})`,
+              background: `linear-gradient(to left, rgba(0,0,0, .6), rgba(0,0,0, .6)), url(${post.img})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
           >
-            <p>{post.txt}</p>
-            <button>Read More</button>
+            <div className="text">
+              <p>{post.txt}</p>
+              <button>Read More</button>
+            </div>
           </div>
         ))}
       </main>
