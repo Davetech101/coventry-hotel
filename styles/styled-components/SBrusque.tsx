@@ -42,6 +42,7 @@ const SBrusque = styled.section`
   p{
     color:rgba(0, 0, 0, 0.7);
     font-size:1.5rem;
+    padding:0 3rem;
   }
 `;
 export default SBrusque;
