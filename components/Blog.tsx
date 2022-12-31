@@ -13,16 +13,12 @@ const Blog = () => {
             txt: "Explore the woods with your family"
         },
         {
-            img: "",
-            txt: ""
+            img: "/assets/beach.jpg",
+            txt: "Enjoy the atmosphere outside, fresh air from the beach"
         },
         {
-            img: "",
-            txt: ""
-        },
-        {
-            img: "",
-            txt: ""
+            img: "/assets/desert.jpg",
+            txt: "Have a walk in the desert, and watch the sun reflect on your skin"
         },
     ]
 const img = "/assets/canoeride.jpg"
