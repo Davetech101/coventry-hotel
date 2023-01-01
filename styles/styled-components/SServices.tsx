@@ -15,13 +15,14 @@ const SServices = styled.section`
     display:flex;
     overflow-x:scroll;
     box-shadow:2px 2px 10px rgba(0,0,0,.3);
+    gap:2rem;
   }
 
   main div {
     background: #fff;
     padding: 2rem;
     flex-shrink:0;
-    width:100%;
+    width:85%;
   }
 
   main svg{

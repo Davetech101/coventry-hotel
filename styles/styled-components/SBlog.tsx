@@ -17,12 +17,13 @@ const SBlog = styled.section`
     display:flex;
     overflow-x:scroll;
     box-shadow:2px 2px 10px rgba(0,0,0,.3);
+    gap:2rem;
   }
 
   main > div {
     padding: 1rem;
     flex-shrink:0;
-    width:100%;
+    width:85%;
     min-height:20rem;
   }
 
