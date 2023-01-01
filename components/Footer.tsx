@@ -12,16 +12,22 @@ const Footer = () => {
   return (
     <SFooter>
       <nav>
-        <ul>
+        <ul className="links">
           <li>
             <Link href="/home">Home</Link>
+          </li>
+          <li>
             <Link href="/home">Practice Area</Link>
+          </li>
+          <li>
             <Link href="/home">Services</Link>
+          </li>
+          <li>
             <Link href="/home">Contact</Link>
           </li>
         </ul>
 
-        <ul>
+        <ul className="connect">
           Connect
           <li>
             <button>
