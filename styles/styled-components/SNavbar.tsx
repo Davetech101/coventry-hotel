@@ -98,10 +98,10 @@ const SNavbar = styled.main`
     align-items: center;
     flex-direction: column;
     height: 100%;
-    max-width:49rem;
-    margin:0rem auto;
+    max-width: 49rem;
+    margin: 0rem auto;
     position: absolute;
-    padding:2rem;
+    padding: 2rem;
     z-index: 0;
   }
 
@@ -117,6 +117,12 @@ const SNavbar = styled.main`
     border-radius: 2rem;
     padding: 1.5rem 3rem;
     margin-top: 2.5rem;
+  }
+
+  @media only screen and (min-width: 900px) {
+    .toggle {
+      // display: none;
+    }
   }
 `;
 
