@@ -1,9 +1,7 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { BsFillTelephoneFill } from "react-icons/bs";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { GrClose } from "react-icons/gr";
 import SNavbar from "../styles/styled-components/SNavbar";
 
 const Navbar = () => {
@@ -14,7 +12,7 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (document.body.getBoundingClientRect().top <= -200) {
+      if (document.body.getBoundingClientRect().top <= -100) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -23,8 +21,8 @@ const Navbar = () => {
   }, []);
 
   return (
-    <SNavbar className={scrolled ? "navbar scrolled" : "navbar"}>
-      <header>
+    <SNavbar>
+      <header className={scrolled ? "navbar scrolled" : "navbar"}>
         <Link href="/">
           <div className="logo">COVENTRY HOTELL</div>
         </Link>
