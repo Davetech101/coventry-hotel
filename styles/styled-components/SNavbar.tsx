@@ -3,7 +3,7 @@ import styled from "styled-components";
 const SNavbar = styled.main`
   background-image: linear-gradient(
       to left,
-      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6), 
       rgba(0, 0, 0, 0.6)
     ),
     url(/assets/Hero.jpg);
@@ -122,6 +122,32 @@ const SNavbar = styled.main`
   @media only screen and (min-width: 900px) {
     .toggle {
       // display: none;
+    }
+
+    nav {
+      background: unset;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 40vh;
+      width: 75vw;
+      max-width: 50rem;
+      padding: 2rem;
+      box-shadow: 1px 1px 18px black;
+      transition: all 0.5s;
+      transform: translate(-30rem);
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    nav a {
+      padding: 1rem;
+      font-size: 2rem;
+      color: #fff;
+    }
+
+    .modal{
+      display:none;
     }
   }
 `;
