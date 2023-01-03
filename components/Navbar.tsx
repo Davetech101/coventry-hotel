@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { RiHotelLine } from "react-icons/ri"
 import SNavbar from "../styles/styled-components/SNavbar";
 
 const Navbar = () => {
@@ -25,6 +26,7 @@ const Navbar = () => {
       <header className={scrolled ? "navbar scrolled" : "navbar"}>
         <Link href="/">
           <div className="logo">COVENTRY HOTELL</div>
+          <RiHotelLine/>
         </Link>
 
         <button className="toggle">
@@ -34,13 +36,30 @@ const Navbar = () => {
             <GiHamburgerMenu color="#fff" size={30} onClick={() => setShowNav(true)}/>
           )}
         </button>
+
+        <nav className="desktop">
+        <ul>
+          {links.map((link) => {
+            return (
+              <li key={link}>
+                <Link
+                  href={link === "Home" ? "/" : `/${link.toLocaleLowerCase()}`}
+                  className="nav"
+                >
+                  {link}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
       </header>
 
       <div
         className={showNav ? "modal show" : "modal"}
         onClick={() => setShowNav(false)}
       ></div>
-      <nav className={showNav ? "show" : ""}>
+      <nav className={showNav ? "show mobile" : "mobile"}>
         <ul>
           {links.map((link) => {
             return (
