@@ -156,6 +156,25 @@ const SNavbar = styled.main`
       display:none;
     }
   }
+
+  @media only screen and (min-width: 1200px){
+    padding:1rem 11rem;
+
+    header{
+      padding:1rem 15rem;
+    }
+
+    nav.desktop a{
+      border:1px solid transparent;
+      border-top-left-radius:3rem;
+      border-bottom-right-radius:3rem;
+
+    }
+
+    nav.desktop a:hover{
+      border:1px solid;
+    }
+  }
 `;
 
 export default SNavbar;
