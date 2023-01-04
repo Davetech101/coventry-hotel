@@ -24,8 +24,8 @@ const Navbar = () => {
   return (
     <SNavbar>
       <header className={scrolled ? "navbar scrolled" : "navbar"}>
-        <Link href="/">
-          <div className="logo">COVENTRY HOTELL</div>
+        <Link href="/" className="logo">
+          <div>COVENTRY HOTELL</div>
           <RiHotelLine/>
         </Link>
 

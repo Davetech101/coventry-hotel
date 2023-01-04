@@ -13,6 +13,12 @@ const SNavbar = styled.main`
   min-height: 90vh;
   position: relative;
 
+  .logo{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
