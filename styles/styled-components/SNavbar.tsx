@@ -3,7 +3,7 @@ import styled from "styled-components";
 const SNavbar = styled.main`
   background-image: linear-gradient(
       to left,
-      rgba(0, 0, 0, 0.6), 
+      rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
     url(/assets/Hero.jpg);
@@ -13,10 +13,10 @@ const SNavbar = styled.main`
   min-height: 90vh;
   position: relative;
 
-  .logo{
-    display:flex;
-    align-items:center;
-    gap:1rem;
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
   }
 
   header {
@@ -82,8 +82,8 @@ const SNavbar = styled.main`
     z-index: 10;
   }
 
-  nav.desktop{
-    display:none;
+  nav.desktop {
+    display: none;
   }
 
   nav.show {
@@ -134,16 +134,16 @@ const SNavbar = styled.main`
       display: none;
     }
 
-    nav.mobile{
-      display:none;
+    nav.mobile {
+      display: none;
     }
 
-    nav.desktop{
-      display:block;
+    nav.desktop {
+      display: block;
     }
 
-    nav.desktop ul{
-      display:flex;
+    nav.desktop ul {
+      display: flex;
     }
 
     nav a {
@@ -152,48 +152,49 @@ const SNavbar = styled.main`
       color: #fff;
     }
 
-    .modal{
-      display:none;
+    .modal {
+      display: none;
     }
   }
 
-  @media only screen and (min-width: 1200px){
-    padding:1rem 12.5rem;
+  @media only screen and (min-width: 1200px) {
+    padding: 1rem 12.5rem;
 
-    header{
-      padding:1rem 15rem;
+    header {
+      padding: 1rem 15rem;
     }
 
-    nav.desktop a{
-      border:1px solid transparent;
-      border-top-left-radius:3rem;
-      border-bottom-right-radius:3rem;
-
+    nav.desktop a {
+      border: 1px solid transparent;
+      border-top-left-radius: 3rem;
+      border-bottom-right-radius: 3rem;
     }
 
-    nav.desktop a:hover{
-      border:1px solid;
+    nav.desktop a:hover {
+      border: 1px solid;
     }
 
     main {
       height: 100%;
       max-width: 80rem;
       margin: 0rem auto;
+      align-items: unset;
     }
 
     main p {
       color: #d2d2d2;
       text-align: unset;
-      width:100%;
+      width: 100%;
       font-size: 8rem;
     }
   }
 
   main button {
     border-radius: 2rem;
-    padding: 3rem 6rem;
-    font-size:3rem;
+    padding: 2rem 4rem;
+    font-size: 2rem;
     margin-top: 2.5rem;
+    display:inline-block;
   }
 `;
 
