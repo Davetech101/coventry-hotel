@@ -158,7 +158,7 @@ const SNavbar = styled.main`
   }
 
   @media only screen and (min-width: 1200px) {
-    padding: 1rem 12.5rem;
+    padding: 1rem 13rem;
 
     header {
       padding: 1rem 15rem;
@@ -177,25 +177,24 @@ const SNavbar = styled.main`
 
     main {
       height: 100%;
-      max-width: 80rem;
+      max-width: 60rem;
       margin: 0rem auto;
       align-items: unset;
       display:block;
-      margin-top:13rem;
+      margin-top:23rem;
     }
 
     main p {
       color: #d2d2d2;
       text-align: unset;
       width: 100%;
-      font-size: 8rem;
+      font-size: 4rem;
     }
   }
 
   main button {
     border-radius: 2rem;
-    padding: 2rem 4rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 2.5rem;
     transition:all .4s;
   }

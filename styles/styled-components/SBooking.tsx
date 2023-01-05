@@ -28,5 +28,9 @@ const SBooking = styled.section`
     border-radius:2rem;
     padding:1.5rem 3rem;
   }
+
+  @media only screen and (min-width: 1200px) {
+    
+  }
 `;
 export default SBooking;
