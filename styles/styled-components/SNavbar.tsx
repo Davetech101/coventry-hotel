@@ -158,7 +158,7 @@ const SNavbar = styled.main`
   }
 
   @media only screen and (min-width: 1200px){
-    padding:1rem 11rem;
+    padding:1rem 12.5rem;
 
     header{
       padding:1rem 15rem;
@@ -174,6 +174,26 @@ const SNavbar = styled.main`
     nav.desktop a:hover{
       border:1px solid;
     }
+
+    main {
+      height: 100%;
+      max-width: 80rem;
+      margin: 0rem auto;
+    }
+
+    main p {
+      color: #d2d2d2;
+      text-align: unset;
+      width:100%;
+      font-size: 8rem;
+    }
+  }
+
+  main button {
+    border-radius: 2rem;
+    padding: 3rem 6rem;
+    font-size:3rem;
+    margin-top: 2.5rem;
   }
 `;
 
