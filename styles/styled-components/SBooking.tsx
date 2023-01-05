@@ -9,15 +9,18 @@ const SBooking = styled.section`
     display: block;
     padding:1rem;
     background:white;
-    margin-bottom:2rem;
+    margin:2rem auto;
     border-radius:2rem;
     width:100%;
+    max-width:50rem;
   }
 
   label{
+    margin:1.2rem auto;
     font-size:1.6rem;
     display:block;
     margin-bottom:1.2rem;
+    max-width:50rem;
   }
 
   button{
@@ -30,7 +33,7 @@ const SBooking = styled.section`
   }
 
   @media only screen and (min-width: 1200px) {
-    
+
   }
 `;
 export default SBooking;
