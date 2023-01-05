@@ -172,6 +172,7 @@ const SNavbar = styled.main`
 
     nav.desktop a:hover {
       border: 1px solid;
+    transition:all .4s;
     }
 
     main {
@@ -179,6 +180,8 @@ const SNavbar = styled.main`
       max-width: 80rem;
       margin: 0rem auto;
       align-items: unset;
+      display:block;
+      margin-top:13rem;
     }
 
     main p {
@@ -194,7 +197,11 @@ const SNavbar = styled.main`
     padding: 2rem 4rem;
     font-size: 2rem;
     margin-top: 2.5rem;
-    display:inline-block;
+    transition:all .4s;
+  }
+
+  main button:hover{
+    background:#125412;
   }
 `;
 
