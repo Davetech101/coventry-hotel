@@ -2,14 +2,13 @@ import styled from "styled-components";
 
 const SBooking = styled.section`
   padding: 4rem 3rem;
+  background: #f2f2f2;
   box-shadow: 1px 1px 1px;
 
   form{
-    background: #f2f2f2;
     z-index:1;
     position:relative;
     padding:1rem;
-    box-shadow:2px 2px 7px rgba(0,0,0,.5);
   }
 
   input {
@@ -73,6 +72,8 @@ const SBooking = styled.section`
       align-items: end;
       gap:2rem;
       margin-top:-10rem;
+      box-shadow:2px 2px 7px rgba(0,0,0,.5);
+      background: #f2f2f2;
     }
 
     form > div{
