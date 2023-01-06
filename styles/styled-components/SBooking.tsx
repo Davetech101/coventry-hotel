@@ -30,10 +30,33 @@ const SBooking = styled.section`
     color:#fff;
     border-radius:2rem;
     padding:1.5rem 3rem;
+    transition:all .4s;
+  }
+  
+  button:hover{
+    background:#125412;
   }
 
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 700px) {
+    label{
+      font-size:2rem;
+    }
+  }
 
+  @media only screen and (min-width: 700px) {
+    label{
+      font-size:2.5rem;
+    }
+
+    input {
+      display: block;
+      padding:2rem;
+      background:white;
+      margin:2rem auto;
+      border-radius:2rem;
+      width:100%;
+      max-width:50rem;
+    }
   }
 `;
 export default SBooking;

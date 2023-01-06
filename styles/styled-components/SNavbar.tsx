@@ -129,6 +129,10 @@ const SNavbar = styled.main`
     margin-top: 2.5rem;
   }
 
+  main button:hover{
+    background:#125412;
+  }
+
   @media only screen and (min-width: 900px) {
     .toggle {
       display: none;
@@ -197,10 +201,6 @@ const SNavbar = styled.main`
     font-size: 1.5rem;
     margin-top: 2.5rem;
     transition:all .4s;
-  }
-
-  main button:hover{
-    background:#125412;
   }
 `;
 
