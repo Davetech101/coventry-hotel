@@ -102,6 +102,11 @@ const SNavbar = styled.main`
     color: #1b361b;
   }
 
+  nav.desktop a:hover {
+    border: 1px solid;
+    transition: all 0.4s;
+  }
+
   main {
     display: flex;
     justify-content: center;
@@ -129,8 +134,8 @@ const SNavbar = styled.main`
     margin-top: 2.5rem;
   }
 
-  main button:hover{
-    background:#125412;
+  main button:hover {
+    background: #125412;
   }
 
   @media only screen and (min-width: 900px) {
@@ -174,18 +179,13 @@ const SNavbar = styled.main`
       border-bottom-right-radius: 3rem;
     }
 
-    nav.desktop a:hover {
-      border: 1px solid;
-    transition:all .4s;
-    }
-
     main {
       height: 100%;
       max-width: 60rem;
       margin: 0rem auto;
       align-items: unset;
-      display:block;
-      margin-top:23rem;
+      display: block;
+      margin-top: 23rem;
     }
 
     main p {
@@ -200,7 +200,7 @@ const SNavbar = styled.main`
     border-radius: 2rem;
     font-size: 1.5rem;
     margin-top: 2.5rem;
-    transition:all .4s;
+    transition: all 0.4s;
   }
 `;
 
