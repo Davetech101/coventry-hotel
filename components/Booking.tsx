@@ -17,7 +17,9 @@ const Booking = () => {
           <label htmlFor="people">Number of Persons</label>
           <input type="number" id="people" min="1" max="5" required />
         </div>
+        <div className="">
         <button>Book Now</button>
+        </div>
       </form>
     </SBooking>
   );
