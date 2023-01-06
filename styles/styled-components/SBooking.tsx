@@ -6,10 +6,10 @@ const SBooking = styled.section`
 
   form{
     background: #f2f2f2;
-    z-index:100;
+    z-index:1;
     position:relative;
     padding:1rem;
-    box-shadow:1px 1px 1px rgba(0,0,0,.5);
+    box-shadow:2px 2px 7px rgba(0,0,0,.5);
   }
 
   input {
@@ -93,5 +93,10 @@ const SBooking = styled.section`
       width:100%;
     }
   }
+
+  @media only screen and (min-width: 1200px) {
+    padding:4rem 15rem;
+  }
+
 `;
 export default SBooking;
