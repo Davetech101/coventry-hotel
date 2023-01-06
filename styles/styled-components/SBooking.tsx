@@ -44,6 +44,10 @@ const SBooking = styled.section`
   }
 
   @media only screen and (min-width: 700px) {
+    form{
+      display:flex;
+    }
+    
     label{
       font-size:2.5rem;
     }
