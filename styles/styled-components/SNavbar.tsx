@@ -82,6 +82,12 @@ const SNavbar = styled.main`
     z-index: 10;
   }
 
+  nav.desktop a {
+    border: 1px solid transparent;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+  }
+
   nav.desktop {
     display: none;
   }
@@ -171,12 +177,6 @@ const SNavbar = styled.main`
 
     header {
       padding: 1rem 15rem;
-    }
-
-    nav.desktop a {
-      border: 1px solid transparent;
-      border-top-left-radius: 3rem;
-      border-bottom-right-radius: 3rem;
     }
 
     main {
