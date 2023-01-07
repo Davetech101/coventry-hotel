@@ -57,5 +57,17 @@ const SBrusque = styled.section`
       font-size:1.8rem;
     }
   }
+
+  @media only screen and (min-width: 1200px) {
+    .bg {
+      width:45%;
+      min-height:30rem;
+      left:70%;
+    }
+
+    p{
+     padding:0 15rem;
+    }
+  }
 `;
 export default SBrusque;
