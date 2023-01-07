@@ -47,6 +47,12 @@ const SBlog = styled.section`
     .text {
       font-size: 1.5rem;
     }
+
+    main button {
+      color: #fff;
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
   }
 
   @media only screen and (min-width: 800px) {
