@@ -55,7 +55,7 @@ const Services = () => {
             <h3>{service.title}</h3>
 
             <p>{service.txt}</p>
-            {/* <button>Learn More</button> */}
+            <button>Learn More</button>
           </div>
         ))}
       </main>
