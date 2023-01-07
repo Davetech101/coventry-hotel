@@ -2,6 +2,8 @@ import styled from "styled-components";
 
 const SFooter = styled.footer`
   padding: 4rem 2rem;
+  max-width:60rem;
+  margin:0 auto;
 
   .links {
     display: flex;
@@ -35,6 +37,21 @@ const SFooter = styled.footer`
 
   .connect svg{
     color: #1b361b;
+  }
+
+  @media only screen and (min-width: 800px) {
+    .links li {
+      font-size: 2rem;
+    }
+
+    .connect{
+      font-size:2.2rem;
+    }
+
+    .connect button{
+      font-size:3.8rem;
+      margin:0 1rem;
+    }
   }
 `;
 
