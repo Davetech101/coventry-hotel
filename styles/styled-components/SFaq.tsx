@@ -10,18 +10,23 @@ const SFaq = styled.section`
     color: #f2f2f2e5;
     margin-bottom: 3rem;
     text-transform: uppercase;
+    text-align:center;
+    letter-spacing:1rem;
   }
 
   details {
     font-size: 1.5rem;
     padding: 1rem;
     border-bottom: 1px solid;
-    background: #042604;
+    max-width:60rem;
+    margin:0 auto;
   }
 
   summary {
     background: #1b361b;
     padding:1rem;
+    margin-bottom:1rem;
   }
 `;
+
 export default SFaq;

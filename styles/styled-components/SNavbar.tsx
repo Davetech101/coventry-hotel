@@ -196,12 +196,6 @@ const SNavbar = styled.main`
       font-size: 6rem;
     }
   }
-
-  main button {
-    border-radius: 2rem;
-    font-size: 1.5rem;
-    margin-top: 2.5rem;
-  }
 `;
 
 export default SNavbar;
