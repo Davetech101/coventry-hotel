@@ -44,5 +44,16 @@ const SBrusque = styled.section`
     font-size:1.5rem;
     padding:0 3rem;
   }
+
+  @media only screen and (min-width: 800px) {
+    .bg {
+      width:55%;
+      min-height:20rem;
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-0%, -50%);
+    }
+  }
 `;
 export default SBrusque;
