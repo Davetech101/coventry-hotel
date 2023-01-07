@@ -21,6 +21,10 @@ const SBrusque = styled.section`
     height: 100%;
   }
 
+  .dxtp{
+    display:none;
+  }
+
   .bg {
     background-image: linear-gradient(
         to left,
@@ -37,6 +41,7 @@ const SBrusque = styled.section`
     top:50%;
     left:50%;
     transform:translate(-50%, -50%);
+    box-shadow:5px 5px 10px rgba(0,0,0,.5);
   }
 
   p{
@@ -59,21 +64,39 @@ const SBrusque = styled.section`
   }
 
   @media only screen and (min-width: 1200px) {
+    margin:5rem 0;
+
     .bg {
       width:45%;
       min-height:25rem;
-      left:70%;
+      left:65%;
     }
 
     .left {
       background: #1b361b;
       width: 50%;
       height: 100%;
+      display:flex;
+      justify-content:center;
+      align-items:center;
 
     }
 
     p{
      padding:0 15rem;
+    }
+
+    .mobile{
+      display:none;
+    }
+
+    .dxtp{
+      display:block;
+      // padding:3rem 0;
+    }
+    
+    .dxtp p{
+      color:#d2d2d2;
     }
   }
 `;
