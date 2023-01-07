@@ -99,5 +99,10 @@ const SBrusque = styled.section`
       color:#d2d2d2;
     }
   }
+
+  @media only screen and (min-width: 1300px) {
+    .bg {
+      width:40%;
+    }
 `;
 export default SBrusque;
