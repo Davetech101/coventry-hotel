@@ -27,6 +27,12 @@ const SFaq = styled.section`
     padding:1rem;
     margin-bottom:1rem;
   }
+
+  @media only screen and (min-width: 800px) {
+    details{
+      font-size:2rem;
+    }
+  }
 `;
 
 export default SFaq;
