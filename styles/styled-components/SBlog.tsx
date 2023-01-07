@@ -37,5 +37,17 @@ const SBlog = styled.section`
     color:#fff;
     margin-top:1rem;
   }
+
+  @media only screen and (min-width: 550px) {
+    main > div {
+      width:50%;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    main > div {
+      width:40%;
+    }
+  }
 `;
 export default SBlog;
