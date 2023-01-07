@@ -48,11 +48,13 @@ const SBrusque = styled.section`
   @media only screen and (min-width: 800px) {
     .bg {
       width:55%;
-      min-height:20rem;
-      position:absolute;
-      top:50%;
-      left:50%;
-      transform:translate(-0%, -50%);
+      min-height:25rem;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    p{
+      font-size:1.8rem;
     }
   }
 `;
