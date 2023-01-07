@@ -28,7 +28,7 @@ const SBlog = styled.section`
   }
 
   .text {
-    background: rgba(00, 00, 00, 0.7);
+    background: rgba(00, 00, 00, 0.3);
     padding: 1rem;
     color: #fff;
     font-size: 1.3rem;
@@ -59,6 +59,16 @@ const SBlog = styled.section`
     main > div {
       width: 40%;
     }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    main > div {
+      width: 30%;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    padding: 0 16rem 0 0;
   }
 `;
 export default SBlog;
