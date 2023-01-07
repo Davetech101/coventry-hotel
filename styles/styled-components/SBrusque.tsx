@@ -25,7 +25,7 @@ const SBrusque = styled.section`
     background-image: linear-gradient(
         to left,
         rgba(0, 0, 0, 0.6),
-        rgba(0, 0, 0, 0.6)
+        rgba(0, 0, 0, 0.2)
       ),
       url(/assets/Hero.jpg);
     background-size: cover;
@@ -61,8 +61,15 @@ const SBrusque = styled.section`
   @media only screen and (min-width: 1200px) {
     .bg {
       width:45%;
-      min-height:30rem;
+      min-height:25rem;
       left:70%;
+    }
+
+    .left {
+      background: #1b361b;
+      width: 50%;
+      height: 100%;
+
     }
 
     p{
