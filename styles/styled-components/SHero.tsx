@@ -13,6 +13,59 @@ const SHero = styled.section`
   background-repeat: no-repeat;
   min-height: 90vh;
   position: relative;
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    max-width: 49rem;
+    margin: 0rem auto;
+    position: absolute;
+    padding: 2rem;
+    z-index: 0;
+  }
+
+  main p {
+    color: #d2d2d2;
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+  main button {
+    background: #1b361b;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 1.5rem 3rem;
+    margin-top: 2.5rem;
+    transition: all 0.4s;
+  }
+
+  main button:hover {
+    background: #125412;
+  }
+  
+
+  @media only screen and (min-width: 1200px) {
+    padding: 1rem 13rem;
+
+    main {
+      height: 100%;
+      max-width: 60rem;
+      margin: 0rem auto;
+      align-items: unset;
+      display: block;
+      margin-top: 23rem;
+    }
+
+    main p {
+      color: #d2d2d2;
+      text-align: unset;
+      width: 100%;
+      font-size: 6rem;
+    }
+  }
 `
 
 export default SHero;
