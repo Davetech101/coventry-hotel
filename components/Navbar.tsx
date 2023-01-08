@@ -75,11 +75,6 @@ const Navbar = () => {
           })}
         </ul>
       </nav>
-
-      <main className="main">
-      <p className="txt">Once a year go someplace you&apos;ve never been before.</p>
-      <button>See video</button>
-      </main>
     </SNavbar>
   );
 };

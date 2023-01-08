@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-const SHero = styled.main`
+const SHero = styled.section`
   background-image: linear-gradient(
       to left,
       rgba(0, 0, 0, 0.6),

@@ -6,11 +6,13 @@ import Brusque from '../components/Brusque'
 import Blog from '../components/Blog'
 import Faq from '../components/Faq'
 import Footer from '../components/Footer'
+import Hero from '../components/Hero'
 
 export default function Home() {
   return (
     <>
      <Navbar/>
+     <Hero/>
      <Booking/>
      <Services/>
      <Brusque/>

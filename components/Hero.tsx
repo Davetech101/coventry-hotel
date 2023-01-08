@@ -1,12 +1,17 @@
-import React from 'react'
-import SNavbar from '../styles/styled-components/SNavbar'
+import React from "react";
+import SHero from "../styles/styled-components/SHero";
 
 const Hero = () => {
   return (
-    <SNavbar>
-        
-    </SNavbar>
-  )
-}
+    <SHero>
+      <main className="main">
+        <p className="txt">
+          Once a year go someplace you&apos;ve never been before.
+        </p>
+        <button>See video</button>
+      </main>
+    </SHero>
+  );
+};
 
-export default Hero
+export default Hero;
