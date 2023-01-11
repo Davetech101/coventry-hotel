@@ -19,6 +19,11 @@ const SFooter = styled.footer`
 
   .links a {
     color: #1b361b;
+    border:1px solid transparent;
+  }
+
+  .links a:hover {
+    border:1px solid #1b361b;
   }
 
   .connect{
