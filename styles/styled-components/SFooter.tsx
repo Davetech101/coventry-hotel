@@ -20,6 +20,7 @@ const SFooter = styled.footer`
   .links a {
     color: #1b361b;
     border:1px solid transparent;
+    padding:1rem;
   }
 
   .links a:hover {
