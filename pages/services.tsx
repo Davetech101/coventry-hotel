@@ -6,7 +6,7 @@ export default function OurServices() {
   return (
     <>
      <Navbar/>
-     <Hero/>
+     <Hero text="Let the"/>
      <Footer/>
     </>
   )
