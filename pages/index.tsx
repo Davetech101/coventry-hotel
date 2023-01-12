@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
      <Navbar/>
-     <Hero/>
+     <Hero text='Once a year go someplace youve never been before.'/>
      <Booking/>
      <Services/>
      <Brusque/>
