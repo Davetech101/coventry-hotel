@@ -20,7 +20,7 @@ const SHero = styled.section`
     align-items: center;
     flex-direction: column;
     height: 100%;
-    max-width: 49rem;
+    width:100%;
     margin: 0rem auto;
     position: absolute;
     padding: 2rem;
@@ -31,12 +31,14 @@ const SHero = styled.section`
     color: #d2d2d2;
     text-align: center;
     font-size: 4rem;
+    max-width: 49rem;
   }
 
   main p {
     color: #9c9c9c;
     text-align: center;
     font-size: 2rem;
+    max-width: 49rem;
   }
   
   main button {
