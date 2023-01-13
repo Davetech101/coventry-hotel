@@ -2,9 +2,13 @@ import React from "react";
 import SHero from "../styles/styled-components/SHero";
 
 const Hero = ({
-  text
+  text,
+  type,
+  title,
 }: {
-  text: string
+  text: string;
+  type: string;
+  title: string;
 }) => {
   return (
     <SHero>
