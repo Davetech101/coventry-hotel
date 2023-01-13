@@ -1,24 +1,28 @@
-import Navbar from '../components/Navbar'
-import Booking from '../components/Booking'
-import Services from '../components/Services'
-import styles from '../styles/Home.module.css'
-import Brusque from '../components/Brusque'
-import Blog from '../components/Blog'
-import Faq from '../components/Faq'
-import Footer from '../components/Footer'
-import Hero from '../components/Hero'
+import Navbar from "../components/Navbar";
+import Booking from "../components/Booking";
+import Services from "../components/Services";
+import styles from "../styles/Home.module.css";
+import Brusque from "../components/Brusque";
+import Blog from "../components/Blog";
+import Faq from "../components/Faq";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
     <>
-     <Navbar/>
-     <Hero text='Once a year go someplace youve never been before.'/>
-     <Booking/>
-     <Services/>
-     <Brusque/>
-     <Blog/>
-     <Faq/>
-     <Footer/>
+      <Navbar />
+      <Hero
+        title="Once a year go someplace you've never been before."
+        text=""
+        type="home"
+      />
+      <Booking />
+      <Services />
+      <Brusque />
+      <Blog />
+      <Faq />
+      <Footer />
     </>
-  )
+  );
 }
