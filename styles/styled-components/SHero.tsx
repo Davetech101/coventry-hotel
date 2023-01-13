@@ -27,7 +27,7 @@ const SHero = styled.section`
     z-index: 0;
   }
 
-  main p {
+  main h2 {
     color: #d2d2d2;
     text-align: center;
     font-size: 4rem;
@@ -59,7 +59,7 @@ const SHero = styled.section`
       margin-top: 23rem;
     }
 
-    main p {
+    main h2 {
       color: #d2d2d2;
       text-align: unset;
       width: 100%;

@@ -13,10 +13,11 @@ const Hero = ({
   return (
     <SHero>
       <main className="main">
+        <h2>{title}</h2>
         <p className="txt">
-          Once a year go someplace you&apos;ve never been before.
+          {text}
         </p>
-        <button>See video</button>
+        {type === "home" ? <button>See video</button> : ""}
       </main>
     </SHero>
   );
