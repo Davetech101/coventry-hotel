@@ -71,6 +71,10 @@ const SHero = styled.section`
       font-size: 2.3rem;
       margin-top:2rem;
     }
+
+    main button {
+      max-width:13rem;
+    }
   }
   
 
