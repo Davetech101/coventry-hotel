@@ -32,6 +32,12 @@ const SHero = styled.section`
     text-align: center;
     font-size: 4rem;
   }
+
+  main p {
+    color: #9c9c9c;
+    text-align: center;
+    font-size: 2rem;
+  }
   
   main button {
     background: #1b361b;
@@ -44,6 +50,25 @@ const SHero = styled.section`
 
   main button:hover {
     background: #125412;
+  }
+
+  @media only screen and (min-width: 800px) {
+    main{
+      align-items: unset;
+    }
+
+    main h2 {
+      color: #d2d2d2;
+      text-align: left;
+      font-size: 4.5rem;
+    }
+
+    main p {
+      color: #9c9c9c;
+      text-align: left;
+      font-size: 2.3rem;
+      margin-top:2rem;
+    }
   }
   
 
