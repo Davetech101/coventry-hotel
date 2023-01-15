@@ -16,6 +16,12 @@ const SHero = styled.section<Props>`
   background-repeat: no-repeat;
   min-height: 90vh;
   position: relative;
+  background-image: ${(p: Props) => `linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),
+  url(/assets/${p.type}.jpg)`};
 
   main {
     display: flex;
