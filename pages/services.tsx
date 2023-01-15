@@ -10,7 +10,8 @@ export default function OurServices() {
       <Hero
         text="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
         title="Our Services"
-        type="serviceHero"
+        type=""
+        bgImg="serviceHero"
       />
       <Services/>
       <Footer />

@@ -1,16 +1,10 @@
 import styled from "styled-components";
 interface Props {
-  type: string;
+  bgImg: string;
 }
 
 
 const SHero = styled.section<Props>`
-  background-image: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
-    ),
-    url(/assets/Hero.jpg);
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
@@ -21,7 +15,7 @@ const SHero = styled.section<Props>`
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)
   ),
-  url(/assets/${p.type}.jpg)`};
+  url(/assets/${p.bgImg}.jpg)`};
 
   main {
     display: flex;

@@ -16,6 +16,7 @@ export default function Home() {
         title="Once a year go someplace you've never been before."
         text=""
         type="home"
+        bgImg="Hero"
       />
       <Booking />
       <Services />

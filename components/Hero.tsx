@@ -5,13 +5,15 @@ const Hero = ({
   text,
   type,
   title,
+  bgImg,
 }: {
   text: string;
   type: string;
   title: string;
+  bgImg: string;
 }) => {
   return (
-    <SHero type={type}>
+    <SHero bgImg={bgImg}>
       <main className="main">
         <h2>{title}</h2>
         <p className="txt">
