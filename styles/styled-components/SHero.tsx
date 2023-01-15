@@ -1,7 +1,10 @@
 import styled from "styled-components";
+interface Props {
+  type: string;
+}
 
 
-const SHero = styled.section`
+const SHero = styled.section<Props>`
   background-image: linear-gradient(
       to left,
       rgba(0, 0, 0, 0.6),

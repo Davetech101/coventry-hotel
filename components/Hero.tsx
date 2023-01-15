@@ -11,7 +11,7 @@ const Hero = ({
   title: string;
 }) => {
   return (
-    <SHero>
+    <SHero type={type}>
       <main className="main">
         <h2>{title}</h2>
         <p className="txt">
