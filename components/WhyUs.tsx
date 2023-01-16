@@ -6,6 +6,8 @@ const WhyUs = () => {
     <SWhyUs>
       <div className="green"></div>
 
+      <div className="bg"></div>
+
       <div className="text">
         <h2>Why Us</h2>
 
