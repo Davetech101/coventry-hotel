@@ -66,8 +66,30 @@ const SWhyUs = styled.section`
     }
   }
 
-  @media only screen and (max-width: 1200px) {
-    
+  @media only screen and (max-width: 600px) {
+    flex-direction:column;
+    padding: 0 3rem;
+
+    .bg{
+        width:90%;
+        min-height:35rem;
+        position:absolute;
+        top:0%;
+        left:50%;
+        transform:translate(-50%, -10%);
+        box-shadow:5px 5px 10px rgba(0,0,0,.2);
+        border-top-right-radius:10rem;
+        border-bottom-left-radius:10rem;
+    }
+
+    .green{
+        margin-bottom:4rem;
+    }
+
+    .text{
+        padding:0;
+        width:100%;
+    }
   }
 `;
 
