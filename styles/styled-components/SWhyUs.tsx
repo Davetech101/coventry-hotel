@@ -29,7 +29,7 @@ const SWhyUs = styled.section`
     top:50%;
     left:20%;
     transform:translate(-50%, -50%);
-    box-shadow:5px 5px 10px rgba(0,0,0,.5);
+    box-shadow:5px 5px 10px rgba(0,0,0,.2);
   }
 
   .text{
@@ -40,10 +40,12 @@ const SWhyUs = styled.section`
   h2{
     font-size: 3rem;
     color: #1b361b;
+    margin-bottom:2rem;
   }
 
   p{
-    
+    color:rgba(0, 0, 0, 0.7);
+    font-size:1.5rem;
   }
 `;
 
