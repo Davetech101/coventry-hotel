@@ -47,6 +47,28 @@ const SWhyUs = styled.section`
     color:rgba(0, 0, 0, 0.7);
     font-size:1.5rem;
   }
+
+  @media only screen and (max-width: 1200px) {
+    .bg{
+        left:3rem;
+        min-height:25rem;
+    }
+
+    .text{
+        width:55%;
+        padding-right:3rem;
+    }
+
+    .green {
+        background: #1b361b;
+        width: 20%;
+        height: 30rem;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    
+  }
 `;
 
 export default SWhyUs;
