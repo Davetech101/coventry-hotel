@@ -9,7 +9,7 @@ const SWhyUs = styled.section`
 
   .green {
     background: #1b361b;
-    width: 10%;
+    width: 20%;
     height: 40rem;
   }
 
@@ -24,12 +24,26 @@ const SWhyUs = styled.section`
     background-position: left;
     background-repeat: no-repeat;
     width:35%;
-    min-height:20rem;
+    min-height:35rem;
     position:absolute;
     top:50%;
-    left:50%;
+    left:20%;
     transform:translate(-50%, -50%);
     box-shadow:5px 5px 10px rgba(0,0,0,.5);
+  }
+
+  .text{
+    width:50%;
+    padding-right:16rem;
+  }
+
+  h2{
+    font-size: 3rem;
+    color: #1b361b;
+  }
+
+  p{
+    
   }
 `;
 

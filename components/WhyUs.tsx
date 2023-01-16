@@ -17,7 +17,7 @@ const WhyUs = () => {
           live in Bookmarksgrove right at the coast of the Semantics, a large
           language ocean.
         </p>
-
+            &nbsp;
         <p>
           A small river named Duden flows by their place and supplies it with
           the necessary regelialia. It is a paradisematic country, in which
