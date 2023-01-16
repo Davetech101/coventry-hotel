@@ -9,7 +9,7 @@ const SWhyUs = styled.section`
 
   .green {
     background: #1b361b;
-    width: 20%;
+    width: 30%;
     height: 40rem;
   }
 
@@ -27,8 +27,8 @@ const SWhyUs = styled.section`
     min-height:35rem;
     position:absolute;
     top:50%;
-    left:20%;
-    transform:translate(-50%, -50%);
+    left:15rem;
+    transform:translate(-0, -50%);
     box-shadow:5px 5px 10px rgba(0,0,0,.2);
   }
 
