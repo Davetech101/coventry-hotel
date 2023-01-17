@@ -1,12 +1,14 @@
-import React from 'react'
-import SInstagram from '../styles/styled-components/SInstagram'
+import React from "react";
+import SInstagram from "../styles/styled-components/SInstagram";
 
 const Instagram = () => {
   return (
     <SInstagram>
-        posts
-    </SInstagram>
-  )
-}
+      <h2>Instagram</h2>
 
-export default Instagram
+      
+    </SInstagram>
+  );
+};
+
+export default Instagram;
