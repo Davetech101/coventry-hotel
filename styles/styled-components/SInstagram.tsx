@@ -4,7 +4,7 @@ const SInstagram = styled.section`
   padding: 3rem 15rem;
 
   h2 {
-    padding: 3rem;
+    font-size: 3rem;
   }
 `;
 
