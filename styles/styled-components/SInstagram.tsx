@@ -5,6 +5,7 @@ const SInstagram = styled.section`
 
   h2 {
     font-size: 3rem;
+    color: #1b361b;
   }
 `;
 
