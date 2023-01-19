@@ -14,7 +14,7 @@ export default function about() {
         text="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
         title="About us"
         type=""
-        bgImg="serviceHero"
+        bgImg="aboutHero"
       />
       <Services/>
       <WhyUs/>
