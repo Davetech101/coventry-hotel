@@ -1,6 +1,7 @@
 import Brusque from "../components/Brusque";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
+import History from "../components/History";
 import Instagram from "../components/Instagram";
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
@@ -16,6 +17,7 @@ export default function about() {
         type=""
         bgImg="aboutHero"
       />
+      <History/>
       <Footer />
     </>
   );
