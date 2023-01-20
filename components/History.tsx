@@ -4,10 +4,6 @@ import SHistory from "../styles/styled-components/SHistory";
 const History = () => {
   return (
     <SHistory>
-      <div className="green"></div>
-
-      <div className="bg"></div>
-
       <div className="text">
         <h2>Why Us</h2>
         <p>
@@ -23,6 +19,10 @@ const History = () => {
           roasted parts of sentences fly into your mouth.
         </p>
       </div>
+
+      <div className="bg"></div>
+
+      <div className="green"></div>
     </SHistory>
   );
 };
