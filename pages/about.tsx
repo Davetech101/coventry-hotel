@@ -1,4 +1,3 @@
-import Brusque from "../components/Brusque";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import History from "../components/History";
