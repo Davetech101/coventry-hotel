@@ -5,6 +5,7 @@ import History from "../components/History";
 import Instagram from "../components/Instagram";
 import Navbar from "../components/Navbar";
 import Services from "../components/Services";
+import WhoWeAre from "../components/WhoWeAre";
 import WhyUs from "../components/WhyUs";
 
 export default function about() {
@@ -18,6 +19,7 @@ export default function about() {
         bgImg="aboutHero"
       />
       <History/>
+      <WhoWeAre/>
       <Footer />
     </>
   );
