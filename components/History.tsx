@@ -5,7 +5,7 @@ const History = () => {
   return (
     <SHistory>
       <div className="text">
-        <h2>Why Us</h2>
+        <h2>History</h2>
         <p>
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia, there live the blind texts. Separated they
