@@ -16,8 +16,6 @@ export default function about() {
         type=""
         bgImg="aboutHero"
       />
-      <WhyUs/>
-      <Instagram/>
       <Footer />
     </>
   );
