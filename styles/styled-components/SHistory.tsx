@@ -27,14 +27,14 @@ const SHistory = styled.section`
     min-height: 35rem;
     position: absolute;
     top: 50%;
-    left: 15rem;
+    right: 15rem;
     transform: translate(-0, -50%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
   .text {
     width: 50%;
-    padding-right: 16rem;
+    padding-left: 15rem;
   }
 
   h2 {
@@ -50,13 +50,13 @@ const SHistory = styled.section`
 
   @media only screen and (max-width: 1200px) {
     .bg {
-      left: 3rem;
+      right: 3rem;
       min-height: 25rem;
     }
 
     .text {
       width: 55%;
-      padding-right: 3rem;
+      padding-left: 3rem;
     }
 
     .green {
@@ -74,7 +74,7 @@ const SHistory = styled.section`
       width: 90%;
       min-height: 35rem;
       position: absolute;
-      top: 0%;
+      top: 10%;
       left: 50%;
       transform: translate(-50%, -10%);
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
@@ -84,11 +84,19 @@ const SHistory = styled.section`
 
     .green {
       margin-bottom: 4rem;
+      background:transparent;
     }
 
     .text {
       padding: 0;
       width: 100%;
+      z-index:100;
+      padding:2rem;
+      margin-top:6rem;
+    }
+    
+    p, h2{
+        color:#fff;
     }
   }
 `;
