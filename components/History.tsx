@@ -1,12 +1,30 @@
-import React from 'react'
-import SHistory from '../styles/styled-components/SHistory'
+import React from "react";
+import SHistory from "../styles/styled-components/SHistory";
 
 const History = () => {
   return (
     <SHistory>
-      hsitprswde Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eum voluptatem assumenda, adipisci rerum libero quod sunt exercitationem dolores alias unde qui sequi ab ad corrupti dolor amet harum cupiditate.
-    </SHistory>
-  )
-}
+      <div className="green"></div>
 
-export default History
+      <div className="bg"></div>
+
+      <div className="text">
+        <h2>Why Us</h2>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they
+          live in Bookmarksgrove right at the coast of the Semantics, a large
+          language ocean.
+        </p>
+        &nbsp;
+        <p>
+          A small river named Duden flows by their place and supplies it with
+          the necessary regelialia. It is a paradisematic country, in which
+          roasted parts of sentences fly into your mouth.
+        </p>
+      </div>
+    </SHistory>
+  );
+};
+
+export default History;
