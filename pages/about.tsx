@@ -3,7 +3,6 @@ import Hero from "../components/Hero";
 import History from "../components/History";
 import Navbar from "../components/Navbar";
 import WhoWeAre from "../components/WhoWeAre";
-import WhyUs from "../components/WhyUs";
 
 export default function about() {
   return (
