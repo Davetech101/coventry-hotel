@@ -2,7 +2,6 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import History from "../components/History";
 import Navbar from "../components/Navbar";
-import Services from "../components/Services";
 import WhoWeAre from "../components/WhoWeAre";
 import WhyUs from "../components/WhyUs";
 
