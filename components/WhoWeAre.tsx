@@ -9,22 +9,22 @@ const WhoWeAre = () => {
       txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
-      name: "",
+      name: "Hannah White",
       position: "CEO, Co-Founder",
       txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
-      name: "",
+      name: "Amy Perez",
       position: "CEO, Co-Founder",
       txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
-      name: "",
+      name: "Brian Nance",
       position: "CEO, Co-Founder",
       txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
-      name: "",
+      name: "Stephanie Kenney",
       position: "CEO, Co-Founder",
       txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
