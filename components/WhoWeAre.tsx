@@ -4,8 +4,10 @@ import SWwa from '../styles/styled-components/SWwa'
 const WhoWeAre = () => {
   const arr = [
     {
-      
-    }
+      name: "",
+      position: "",
+      txt: ""
+    },
   ]
   return (
 
