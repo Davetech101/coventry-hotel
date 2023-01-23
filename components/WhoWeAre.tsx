@@ -4,39 +4,39 @@ import SWwa from "../styles/styled-components/SWwa";
 const WhoWeAre = () => {
   const arr = [
     {
-      name: "",
-      position: "",
-      txt: "",
+      name: "James Scott",
+      position: "CEO, Co-Founder",
+      txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
       name: "",
       position: "",
-      txt: "",
+      txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
       name: "",
       position: "",
-      txt: "",
+      txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
       name: "",
       position: "",
-      txt: "",
+      txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
       name: "",
       position: "",
-      txt: "",
+      txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
       name: "",
       position: "",
-      txt: "",
+      txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
       name: "",
       position: "",
-      txt: "",
+      txt: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
   ];
   return (
