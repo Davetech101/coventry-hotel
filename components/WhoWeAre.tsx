@@ -10,32 +10,32 @@ const WhoWeAre = () => {
     },
     {
       name: "",
-      position: "",
+      position: "CEO, Co-Founder",
       txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
       name: "",
-      position: "",
+      position: "CEO, Co-Founder",
       txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
       name: "",
-      position: "",
+      position: "CEO, Co-Founder",
       txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
       name: "",
-      position: "",
+      position: "CEO, Co-Founder",
       txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
       name: "",
-      position: "",
+      position: "CEO, Co-Founder",
       txt: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
     {
       name: "",
-      position: "",
+      position: "CEO, Co-Founder",
       txt: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos earum quisquam debitis facere deserunt tempore optio laborum rerum eligendiure hic sint, ullam impedit similique illo nihil, vitae suscipit neque.",
     },
   ];
