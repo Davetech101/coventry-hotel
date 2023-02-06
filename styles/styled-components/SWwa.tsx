@@ -16,13 +16,21 @@ const SWwa = styled.section`
 
   main{
     display:flex;
-    overflow-x:scroll;
     gap:2rem;
   }
 
   main > div {
     background: #fff;
-    box-shadow:2px 2px 10px rgba(0,0,0,.2);
+    padding:4rem 2rem;
+    box-shadow:1px 1px 10px rgba(0,0,0,.2);
+  } 
+  
+  main h4{
+    font-size: 1.8rem;
+  }
+
+  main p{
+    font-size: 1.2rem;
   }
 `;
 
