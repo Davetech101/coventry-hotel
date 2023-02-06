@@ -19,7 +19,7 @@ const SHistory = styled.section`
         rgba(0, 0, 0, 0.6),
         rgba(0, 0, 0, 0.2)
       ),
-      url(/assets/why.jpg);
+      url(/assets/history.jpg);
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
