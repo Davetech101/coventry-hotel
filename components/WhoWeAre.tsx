@@ -46,6 +46,7 @@ const WhoWeAre = () => {
               </h4>
               <small>{profile.position}</small>
               <p>{profile.txt}</p>
+              <button>Learn More</button>
             </div>
           ))}
       </main>
