@@ -84,19 +84,20 @@ const SHistory = styled.section`
 
     .green {
       margin-bottom: 4rem;
-      background:transparent;
+      background: transparent;
     }
 
     .text {
       padding: 0;
       width: 100%;
-      z-index:100;
-      padding:2rem;
-      margin-top:6rem;
+      z-index: 100;
+      padding: 2rem;
+      margin-top: 6rem;
     }
-    
-    p, h2{
-        color:#fff;
+
+    p,
+    h2 {
+      color: #fff;
     }
   }
 `;
