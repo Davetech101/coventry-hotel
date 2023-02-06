@@ -29,8 +29,15 @@ const SWwa = styled.section`
     font-size: 1.8rem;
   }
 
+  main small{
+    font-size: 1.2rem;
+    margin-bottom:1rem;
+    display:block;
+  }
+
   main p{
     font-size: 1.2rem;
+    line-height:2rem;
   }
 `;
 
