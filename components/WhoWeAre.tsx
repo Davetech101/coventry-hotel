@@ -40,7 +40,13 @@ const WhoWeAre = () => {
 
       <main>
           {profiles.map(profile => (
-            <div key={profile.name}></div>
+            <div key={profile.name}>
+              <h4>
+               {profile.name}
+              </h4>
+              <small>{profile.position}</small>
+              <p>{profile.txt}</p>
+            </div>
           ))}
       </main>
     </SWwa>
