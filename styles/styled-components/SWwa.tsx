@@ -25,6 +25,11 @@ const SWwa = styled.section`
     padding:4rem 2rem;
     box-shadow:1px 1px 10px rgba(0,0,0,.2);
   } 
+
+  main > div > div {
+    width:10rem;
+    height:10rem;
+  } 
   
   main h4{
     font-size: 1.8rem;
