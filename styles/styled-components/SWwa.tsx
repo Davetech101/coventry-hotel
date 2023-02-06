@@ -17,6 +17,7 @@ const SWwa = styled.section`
   main{
     display:flex;
     gap:2rem;
+    margin-top:3rem;
   }
 
   main > div {
@@ -38,6 +39,11 @@ const SWwa = styled.section`
   main p{
     font-size: 1.2rem;
     line-height:2rem;
+  }
+
+  main button{
+    font-size: 1.2rem;
+    margin:1rem 0;
   }
 `;
 
