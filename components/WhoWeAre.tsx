@@ -1,8 +1,9 @@
+import { profile } from "console";
 import React from "react";
 import SWwa from "../styles/styled-components/SWwa";
 
 const WhoWeAre = () => {
-  const arr = [
+  const profiles = [
     {
       name: "James Scott",
       position: "CEO, Co-Founder",
@@ -38,7 +39,9 @@ const WhoWeAre = () => {
       </p>
 
       <main>
-
+          {profiles.map(profile => (
+            <div key={profile.name}></div>
+          ))}
       </main>
     </SWwa>
   );
