@@ -39,10 +39,10 @@ const WhoWeAre = () => {
       <h2>Who we are</h2>
 
       <p>
-        {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum velit hic
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum velit hic
         voluptatem neque optio recusandae distinctio ea quidem odio sint
         delectus laboriosam, excepturi omnis minus necessitatibus? Tempore
-        dolores aut blanditiis? */}
+        dolores aut blanditiis?
       </p>
 
       <main>
