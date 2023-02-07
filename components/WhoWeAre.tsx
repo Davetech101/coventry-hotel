@@ -39,17 +39,17 @@ const WhoWeAre = () => {
       <h2>Who we are</h2>
 
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum velit hic
+        {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum velit hic
         voluptatem neque optio recusandae distinctio ea quidem odio sint
         delectus laboriosam, excepturi omnis minus necessitatibus? Tempore
-        dolores aut blanditiis?
+        dolores aut blanditiis? */}
       </p>
 
       <main>
         {profiles.map((profile) => (
           <div key={profile.name}>
             <div style={{
-              background: `linear-gradient(to left, rgba(0,0,0, .6), rgba(0,0,0, .6)), url(${profile.img})`,
+              background: `linear-gradient(to left, rgba(0,0,0, .1), rgba(0,0,0, .1)), url(${profile.img})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}></div>
