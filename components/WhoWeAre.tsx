@@ -52,7 +52,8 @@ const WhoWeAre = () => {
               background: `linear-gradient(to left, rgba(0,0,0, .1), rgba(0,0,0, .1)), url(${profile.img})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
-            }}></div>
+            }}
+            className="img"></div>
             <h4>{profile.name}</h4>
             <small>{profile.position}</small>
             <p>{profile.txt}</p>
