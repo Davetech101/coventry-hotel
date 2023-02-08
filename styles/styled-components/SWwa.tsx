@@ -17,6 +17,7 @@ const SWwa = styled.section`
   main{
     display:flex;
     gap:2rem;
+    overflow-x:scroll;
     margin-top:3rem;
   }
 
@@ -49,6 +50,10 @@ const SWwa = styled.section`
   main button{
     font-size: 1.2rem;
     margin:1rem 0;
+  }
+
+  main .img{
+    border-radius:50%;
   }
 `;
 
