@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SWwa = styled.section`
-  padding: 5rem 15rem;
+  padding: 5rem 0 5rem 15rem ;
   background: #f8f9fa;
 
   h2 {
@@ -25,6 +25,8 @@ const SWwa = styled.section`
     background: #fff;
     padding:4rem 2rem;
     box-shadow:1px 1px 10px rgba(0,0,0,.2);
+    flex-shrink:0;
+    width:30%;
   } 
 
   main > div > div {
