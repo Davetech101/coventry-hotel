@@ -27,6 +27,7 @@ const SWwa = styled.section`
     box-shadow:1px 1px 10px rgba(0,0,0,.2);
     flex-shrink:0;
     width:30%;
+    margin-bottom:3rem;
   } 
 
   main > div > div {
