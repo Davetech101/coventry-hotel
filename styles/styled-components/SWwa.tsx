@@ -3,6 +3,7 @@ import styled from "styled-components";
 const SWwa = styled.section`
   padding: 5rem 0 5rem 15rem ;
   background: #f8f9fa;
+  margin-top:6rem;
 
   h2 {
     font-size: 3rem;
@@ -46,13 +47,20 @@ const SWwa = styled.section`
   }
 
   main p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height:2rem;
+    color: #9c9c9c;
+    letter-spacing:1px;
   }
 
   main button{
     font-size: 1.2rem;
-    margin:1rem 0;
+    margin:2rem 0;
+    color: #9c9c9c;
+  }
+
+  main button:hover{
+    color: #000;
   }
 
   main .img{
