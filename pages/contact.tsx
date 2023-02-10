@@ -14,8 +14,7 @@ export default function about() {
         type=""
         bgImg="contactHero"
       />
-      <History/>
-      <WhoWeAre/>
+      
       <Footer />
     </>
   );
