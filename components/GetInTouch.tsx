@@ -11,6 +11,8 @@ const GetInTouch = () => {
         <input type="text" id="name" />
         <label htmlFor="email">Email</label>
         <input type="email" name="email" id="email" />
+        <label htmlFor="message">Message</label>
+        <textarea name="message" id="message"></textarea>
       </form>
     </SGetInTouch>
   );
