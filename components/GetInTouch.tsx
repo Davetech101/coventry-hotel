@@ -1,5 +1,11 @@
 import React from "react";
 import SGetInTouch from "../styles/styled-components/SGetInTouch";
+import {
+    AiOutlineInstagram,
+    AiOutlineTwitter,
+    AiFillFacebook,
+    AiFillLinkedin,
+  } from "react-icons/ai";
 
 const GetInTouch = () => {
   return (
@@ -31,7 +37,19 @@ const GetInTouch = () => {
           <address>+1 574 2081 687</address>
         </div>
 
-        <div className="follow">Follow</div>
+        <div className="follow">Follow
+        <button>
+              <AiOutlineInstagram />
+            </button>
+            <button>
+              <AiOutlineTwitter />
+            </button>
+            <button>
+              <AiFillFacebook />
+            </button>
+            <button>
+              <AiFillLinkedin />
+            </button></div>
 
         <div className="email">info@coventryhotel.com</div>
       </div>
