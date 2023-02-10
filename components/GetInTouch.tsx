@@ -4,8 +4,12 @@ import SGetInTouch from "../styles/styled-components/SGetInTouch";
 const GetInTouch = () => {
   return (
     <SGetInTouch>
-        <h2>Get in touch</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates autem, repellat soluta perferendis cumque omnis maxime eaque. Et vitae ut modi, aliquid laudantium eaque fugit beatae quis excepturi totam ab.</p>
+      <h2>Get in touch</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+        autem, repellat soluta perferendis cumque omnis maxime eaque. Et vitae
+        ut modi, aliquid laudantium eaque fugit beatae quis excepturi totam ab.
+      </p>
       <form>
         <label htmlFor="name">Name</label>
         <input type="text" id="name" />
@@ -14,6 +18,23 @@ const GetInTouch = () => {
         <label htmlFor="message">Message</label>
         <textarea name="message" id="message"></textarea>
       </form>
+
+      <div className="contact">
+        <div className="address">
+          Address
+          <address>43 Raymouth Rd. Baltemoer, London 3910</address>
+        </div>
+
+        <div className="phone">
+          Phone
+          <address>+1 939 3839 399</address>
+          <address>+1 574 2081 687</address>
+        </div>
+
+        <div className="follow">Follow</div>
+
+        <div className="email">info@coventryhotel.com</div>
+      </div>
     </SGetInTouch>
   );
 };
