@@ -11,7 +11,7 @@ import {
 const Footer = () => {
   return (
     <SFooter>
-      <nav>
+      {/* <nav>
         <ul className="links">
           <li>
             <Link href="/home">Home</Link>
@@ -44,7 +44,7 @@ const Footer = () => {
             </button>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </SFooter>
   );
 };
