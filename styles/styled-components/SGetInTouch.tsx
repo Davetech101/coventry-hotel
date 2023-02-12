@@ -69,6 +69,12 @@ const SGetInTouch = styled.section`
 
   .follow{
     font-size:2rem;
+    margin:1rem 0;
+  }
+
+  .follow button{
+    font-size:2rem;
+    margin:0 .5rem;
   }
 `;
 
