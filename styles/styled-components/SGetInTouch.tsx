@@ -22,6 +22,12 @@ const SGetInTouch = styled.section`
     display:flex;
     justify-content:center;
     flex-direction:column;
+    margin:3rem 0;
+  }
+
+  label{
+    font-size: 1.8rem;
+    margin: 1rem 0;
   }
 `;
 
