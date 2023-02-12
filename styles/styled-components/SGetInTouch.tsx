@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SGetInTouch = styled.section`
-  z-index: 10;
+  z-index: 2;
   position: relative;
   padding: 8rem 15rem;
 
@@ -31,8 +31,16 @@ const SGetInTouch = styled.section`
   }
 
   input, textarea{
-    background:#c6c6c6;
+    background:#f3f3f3;
     max-width:40rem;
+    border-radius:2rem;
+    padding:1.5rem;
+    transition:all .1s;
+  }
+
+  input:focus, textarea:focus{
+    outline:1px solid black;
+    outline-offset:.5rem;
   }
 `;
 
