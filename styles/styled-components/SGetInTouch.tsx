@@ -57,12 +57,14 @@ const SGetInTouch = styled.section`
     margin-top:4rem;
   }
 
-  .address{
+  .address, .phone{
     font-size:1.6rem;
+    margin-bottom:2rem;
   }
 
-  .address address{
+  address{
     font-size:2rem;
+    margin-top:.5rem;
   }
 `;
 
