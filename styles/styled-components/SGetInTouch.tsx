@@ -18,6 +18,12 @@ const SGetInTouch = styled.section`
     margin: 2rem 0;
   }
 
+  main{
+    display:flex;
+    align-items:top;
+    justify-content:space-between;
+  }
+
   form{
     display:flex;
     justify-content:center;
