@@ -23,6 +23,7 @@ const GetInTouch = () => {
         <input type="email" name="email" id="email" />
         <label htmlFor="message">Message</label>
         <textarea name="message" id="message"></textarea>
+        <button>Send</button>
       </form>
 
       <div className="contact">

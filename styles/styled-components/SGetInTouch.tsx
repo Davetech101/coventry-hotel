@@ -42,6 +42,16 @@ const SGetInTouch = styled.section`
     outline:1px solid black;
     outline-offset:.5rem;
   }
+
+  form > button{
+    background: #1b361b;
+    color: #fff;
+    border-radius: 2rem;
+    padding: 1.5rem 3rem;
+    transition: all 0.4s;
+    max-width:40rem;
+    margin-top:3rem;
+  }
 `;
 
 export default SGetInTouch;
