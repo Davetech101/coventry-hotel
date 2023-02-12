@@ -17,6 +17,12 @@ const SGetInTouch = styled.section`
     font-size: 1.8rem;
     margin: 2rem 0;
   }
+
+  form{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+  }
 `;
 
 export default SGetInTouch;
