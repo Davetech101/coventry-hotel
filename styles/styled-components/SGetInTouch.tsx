@@ -52,6 +52,18 @@ const SGetInTouch = styled.section`
     max-width:40rem;
     margin-top:3rem;
   }
+
+  .contact{
+    margin-top:4rem;
+  }
+
+  .address{
+    font-size:1.6rem;
+  }
+
+  .address address{
+    font-size:2rem;
+  }
 `;
 
 export default SGetInTouch;
