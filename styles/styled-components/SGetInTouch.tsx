@@ -22,6 +22,7 @@ const SGetInTouch = styled.section`
     display:flex;
     align-items:top;
     justify-content:space-between;
+    gap:4rem;
   }
 
   form{
@@ -29,6 +30,7 @@ const SGetInTouch = styled.section`
     justify-content:center;
     flex-direction:column;
     margin:3rem 0;
+    width:100%;
   }
 
   label{
@@ -38,7 +40,6 @@ const SGetInTouch = styled.section`
 
   input, textarea{
     background:#f3f3f3;
-    max-width:40rem;
     border-radius:2rem;
     padding:1.5rem;
     transition:all .1s;
