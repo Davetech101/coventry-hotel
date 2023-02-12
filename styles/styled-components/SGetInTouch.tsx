@@ -66,6 +66,10 @@ const SGetInTouch = styled.section`
     font-size:2rem;
     margin-top:.5rem;
   }
+
+  .follow{
+    font-size:2rem;
+  }
 `;
 
 export default SGetInTouch;
