@@ -29,6 +29,11 @@ const SGetInTouch = styled.section`
     font-size: 1.8rem;
     margin: 1rem 0;
   }
+
+  input, textarea{
+    background:#c6c6c6;
+    max-width:40rem;
+  }
 `;
 
 export default SGetInTouch;
