@@ -76,6 +76,10 @@ const SGetInTouch = styled.section`
     font-size:2rem;
     margin:0 .5rem;
   }
+
+  .email{
+    font-size:2rem;
+  }
 `;
 
 export default SGetInTouch;
