@@ -18,74 +18,89 @@ const SGetInTouch = styled.section`
     margin: 2rem 0;
   }
 
-  main{
-    display:flex;
-    align-items:top;
-    justify-content:space-between;
-    gap:4rem;
+  main {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    gap: 4rem;
   }
 
-  form{
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-    margin:3rem 0;
-    width:100%;
+  form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem 0;
+    width: 100%;
   }
 
-  label{
+  label {
     font-size: 1.8rem;
     margin: 1rem 0;
   }
 
-  input, textarea{
-    background:#f3f3f3;
-    border-radius:2rem;
-    padding:1.5rem;
-    transition:all .1s;
+  input,
+  textarea {
+    background: #f3f3f3;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    transition: all 0.1s;
   }
 
-  input:focus, textarea:focus{
-    outline:1px solid black;
-    outline-offset:.5rem;
+  input:focus,
+  textarea:focus {
+    outline: 1px solid black;
+    outline-offset: 0.5rem;
   }
 
-  form > button{
+  form > button {
     background: #1b361b;
     color: #fff;
     border-radius: 2rem;
     padding: 1.5rem 3rem;
     transition: all 0.4s;
-    max-width:40rem;
-    margin-top:3rem;
+    width: 10rem;
+    margin: 3rem auto;
   }
 
-  .contact{
-    margin-top:4rem;
+  .contact {
+    margin-top: 4rem;
   }
 
-  .address, .phone{
-    font-size:1.6rem;
-    margin-bottom:2rem;
+  .address,
+  .phone {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
   }
 
-  address{
-    font-size:2rem;
-    margin-top:.5rem;
+  address {
+    font-size: 2rem;
+    margin-top: 0.5rem;
   }
 
-  .follow{
-    font-size:2rem;
-    margin:1rem 0;
+  .follow {
+    font-size: 2rem;
+    margin: 1rem 0;
   }
 
-  .follow button{
-    font-size:2rem;
-    margin:0 .5rem;
+  .follow button {
+    font-size: 2rem;
+    margin: 0 0.5rem;
   }
 
-  .email{
-    font-size:2rem;
+  .email {
+    font-size: 2rem;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    padding: 8rem 2rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    main {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 `;
 
