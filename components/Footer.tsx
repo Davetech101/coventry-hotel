@@ -53,6 +53,38 @@ const Footer = () => {
           </li>
         </ul>
 
+        <ul>
+          SERVICES
+          <li>
+            <Link href="/">Tour</Link>
+          </li>
+          <li>
+            <Link href="">Swimming</Link>
+          </li>
+          <li>
+            <Link href="">Surfing</Link>
+          </li>
+          <li>
+            <Link href="">Kayak</Link>
+          </li>
+        </ul>
+
+        <ul>
+          Contact
+          <li>
+            <address>43 Raymouth Rd. Baltemoer, London 3910</address>
+          </li>
+          <li>
+            <address>+1 939 3839 399</address>
+          </li>
+          <li>
+            <address>+1 574 2081 687</address>
+          </li>
+          <li>
+            <address>info@coventryhotel.com</address>
+          </li>
+        </ul>
+
         <ul className="connect">
           Connect
           <li>
