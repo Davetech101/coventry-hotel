@@ -11,19 +11,26 @@ import {
 const Footer = () => {
   return (
     <SFooter>
-      {/* <nav>
-        <ul className="links">
+      <nav>
+        <ul>
+          HOME
           <li>
-            <Link href="/home">Home</Link>
+            <Link href="/">About us</Link>
           </li>
           <li>
-            <Link href="/home">Practice Area</Link>
+            <Link href="">Places</Link>
           </li>
           <li>
-            <Link href="/home">Services</Link>
+            <Link href="">Services</Link>
           </li>
           <li>
-            <Link href="/home">Contact</Link>
+            <Link href="">Destination</Link>
+          </li>
+          <li>
+            <Link href="">Terms</Link>
+          </li>
+          <li>
+            <Link href="">Privacy</Link>
           </li>
         </ul>
 
@@ -44,7 +51,7 @@ const Footer = () => {
             </button>
           </li>
         </ul>
-      </nav> */}
+      </nav>
     </SFooter>
   );
 };
