@@ -34,6 +34,25 @@ const Footer = () => {
           </li>
         </ul>
 
+        <ul>
+          PRACTICE AREA
+          <li>
+            <Link href="/">Travel</Link>
+          </li>
+          <li>
+            <Link href="">Porpular Places</Link>
+          </li>
+          <li>
+            <Link href="">Family Vacation</Link>
+          </li>
+          <li>
+            <Link href="">Tour</Link>
+          </li>
+          <li>
+            <Link href="">Privacy</Link>
+          </li>
+        </ul>
+
         <ul className="connect">
           Connect
           <li>
