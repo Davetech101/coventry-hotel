@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SFooter = styled.footer`
   padding: 4rem 2rem;
-  max-width:60rem;
+  // max-width:60rem;
   margin:0 auto;
 
   .links {
