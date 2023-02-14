@@ -11,6 +11,10 @@ const SFooter = styled.footer`
     align-items: center;
   }
 
+  ul{
+    font-size: 1.6rem;
+  }
+
   a{
     font-size: 1.4rem;
   }
