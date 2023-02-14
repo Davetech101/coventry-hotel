@@ -1,9 +1,19 @@
 import styled from "styled-components";
 
 const SFooter = styled.footer`
-  padding: 4rem 2rem;
+  padding: 4rem 15rem;
   // max-width:60rem;
   margin:0 auto;
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  a{
+    font-size: 1.4rem;
+  }
 
   .links {
     display: flex;
