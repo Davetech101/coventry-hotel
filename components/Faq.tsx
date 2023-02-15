@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import SFaq from "../styles/styled-components/SFaq";
-import { BsPlusCircle } from "react-icons/bs"
-import { AiOutlineMinusCircle } from "react-icons/ai"
+import { BsPlusCircle } from "react-icons/bs";
+import { AiOutlineMinusCircle } from "react-icons/ai";
 
 const Faq = () => {
-  const [showAns, setShowAns] = useState(false)
-  const [activeId, setActiveId] = useState(null)
+  const [activeId, setActiveId] = useState("");
   const faq = [
     {
       id: "1",
@@ -29,9 +28,17 @@ const Faq = () => {
 
       {faq.map((q) => (
         <div className="" key={q.id}>
-          <div className="question" onClick={() => setShowAns(prev => !prev)}>{q.q} {showAns? <AiOutlineMinusCircle/> : <BsPlusCircle/>}</div>
+          <div
+            className="question"
+            onClick={() =>
+              activeId === q.id ? setActiveId("") : setActiveId(q.id)
+            }
+          >
+            {q.q}{" "}
+            {q.id === activeId ? <AiOutlineMinusCircle /> : <BsPlusCircle />}
+          </div>
 
-          <div className={showAns ? "ans show" : "ans"}>{q.a}</div>
+          <div className={q.id === activeId ? "ans show" : "ans"}>{q.a}</div>
         </div>
       ))}
     </SFaq>
