@@ -35,6 +35,10 @@ const SFaq = styled.section`
     padding:1rem;
     margin-bottom:1rem;
     font-size: 1.4rem;
+    transition:all .5s;
+    height:0;
+    opacity:0;
+    visibility:hidden;
   }
 
   @media only screen and (min-width: 800px) {
