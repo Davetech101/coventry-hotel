@@ -1,5 +1,6 @@
 import React from "react";
 import SFaq from "../styles/styled-components/SFaq";
+import { BsPlusCircle } from "react-icons/bs"
 
 const Faq = () => {
   const faq = [
@@ -22,7 +23,7 @@ const Faq = () => {
 
       {faq.map((q) => (
         <div className="" key={q.q}>
-          <div className="question">{q.q}</div>
+          <div className="question">{q.q} <BsPlusCircle/></div>
 
           <div className="ans">{q.a}</div>
         </div>

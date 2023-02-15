@@ -4,6 +4,8 @@ const SFaq = styled.section`
   padding: 3rem;
   background: #1b361b;
   color: #f2f2f2e5;
+  font-family: 'Poppins', sans-serif;
+
 
   h2 {
     font-size: 3rem;
@@ -20,16 +22,19 @@ const SFaq = styled.section`
   }
 
   .question{
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem;
     border-bottom: 1px solid;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
   }
 
   .ans{
     background: #1b361b;
     padding:1rem;
     margin-bottom:1rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   @media only screen and (min-width: 800px) {
