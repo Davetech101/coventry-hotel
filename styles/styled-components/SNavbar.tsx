@@ -27,7 +27,7 @@ const SNavbar = styled.main`
   }
 
   header a {
-    color: #fff;
+    color: #d2d2d2;;
     font-size: 2rem;
     font-family: "Poppins", sans-serif;
   }
@@ -95,7 +95,7 @@ const SNavbar = styled.main`
   nav a {
     padding: 0.5rem;
     font-size: 2rem;
-    color: #fff;
+    color: #d2d2d2;;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -125,7 +125,6 @@ const SNavbar = styled.main`
     }
 
     li {
-      // text-align: center;
       text-transform: capitalize;
       position: relative;
       transition: 0.5s;
@@ -138,7 +137,7 @@ const SNavbar = styled.main`
       position: absolute;
       width: 0.6em;
       height: 0.6em;
-      background-color: #1b361b;
+      background-color: #d2d2d2;;
       border-radius: 50%;
       transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
       top: calc(50% - 0.6em / 2);
@@ -155,7 +154,7 @@ const SNavbar = styled.main`
     }
   
     li:hover {
-      color: white;
+      color: #1b361b;
     }
   
     li:hover::before,
@@ -163,7 +162,7 @@ const SNavbar = styled.main`
       width: 100%;
       height: 100%;
       border-radius: 0;
-      background-color: #1b361b;
+      background-color: #d2d2d2;;
     }
   
     li:hover::before {
@@ -177,9 +176,13 @@ const SNavbar = styled.main`
   
 
     nav a {
-      padding: 1rem;
+      padding:1rem 3rem;
       font-size: 2rem;
-      color: #fff;
+      color: #d2d2d2;;
+    }
+
+    nav a:hover{
+      color:#1b361b;;
     }
 
     .modal {
