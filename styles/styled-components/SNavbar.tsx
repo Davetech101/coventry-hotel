@@ -140,7 +140,7 @@ const SNavbar = styled.main`
       background-color: #d2d2d2;;
       border-radius: 50%;
       transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
-      top: calc(50% - 0.6em / 2);
+      top: calc(50% - 0.9em / 2);
     }
   
     li::before {
@@ -166,11 +166,12 @@ const SNavbar = styled.main`
     }
   
     li:hover::before {
-      top: 0;
+      top:0;
     }
   
     li:hover::after {
-      right: -0.4em;
+      right: -2rem;
+      top:2rem;
       filter: brightness(0.8);
     }
   
