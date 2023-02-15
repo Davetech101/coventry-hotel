@@ -41,6 +41,12 @@ const SFaq = styled.section`
     visibility:hidden;
   }
 
+  .ans.show{
+    height:unset;
+    opacity:1;
+    visibility:visible;
+  }
+
   @media only screen and (min-width: 800px) {
     details{
       font-size:2rem;
