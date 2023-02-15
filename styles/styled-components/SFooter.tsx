@@ -8,7 +8,9 @@ const SFooter = styled.footer`
   nav{
     display: flex;
     justify-content: space-between;
-    align-items: top;
+    align-items: center;
+    flex-wrap:wrap;
+    gap:4rem;
   }
 
   ul{
@@ -40,11 +42,16 @@ const SFooter = styled.footer`
 
   .connect button{
     font-size:2.8rem;
-    margin: 1rem;
+    margin-right: 1rem;
+    margin-top:1rem;
   }
 
   .connect svg{
     color: #1b361b;
+  }
+
+  .connect svg:hover{
+    color: #747474;
   }
 
   // @media only screen and (min-width: 800px) {
