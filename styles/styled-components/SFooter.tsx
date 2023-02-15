@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 const SFooter = styled.footer`
   padding: 4rem 15rem;
-  // max-width:60rem;
   margin:0 auto;
+  background:#dfdfdf;
 
   nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
   }
 
   ul{
@@ -20,22 +20,9 @@ const SFooter = styled.footer`
     color: #9c9c9c;
   }
 
-  .links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  .links li {
-    font-size: 1.4rem;
-    display: block;
-  }
-
-  .links a {
+  a:hover{
     color: #1b361b;
     border:1px solid transparent;
-    padding:1rem;
   }
 
   .links a:hover {
