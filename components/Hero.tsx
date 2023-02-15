@@ -16,10 +16,17 @@ const Hero = ({
     <SHero bgImg={bgImg}>
       <main className="main">
         <h2>{title}</h2>
-        <p className="txt">
-          {text}
-        </p>
-        {type === "home" ? <button>See video</button> : ""}
+        <p className="txt">{text}</p>
+        {type === "home" ? (
+          <button className="button">
+          See Video
+          <div className="button__horizontal"></div>
+          <div className="button__vertical"></div>
+        </button>
+        
+        ) : (
+          ""
+        )}
       </main>
     </SHero>
   );
