@@ -20,7 +20,15 @@ const Faq = () => {
     <SFaq>
       <h2>Frequently asked questions</h2>
 
-      <details>
+      {faq.map((q) => (
+        <div className="" key={q.q}>
+          <div className="question">{q.q}</div>
+
+          <div className="ans">{q.a}</div>
+        </div>
+      ))}
+
+      {/* <details>
         <summary>Is it free?</summary>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eos
         debitis dignissimos provident nulla vero quae nesciunt cum autem quam?
@@ -36,7 +44,7 @@ const Faq = () => {
         <summary>Where can I get help?</summary>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eos
         debitis dignissimos provident nulla vero quae nesciunt cum autem quam?
-      </details>
+      </details> */}
     </SFaq>
   );
 };
