@@ -60,10 +60,10 @@ font-family: 'Poppins', sans-serif;
     position: fixed;
     top: 0;
     left: 0;
-    height: 40vh;
+    min-height: 40vh;
     width: 75vw;
     max-width: 50rem;
-    padding: 2rem;
+    padding: 4rem 2rem;
     box-shadow: 1px 1px 18px black;
     transition: all 0.5s;
     transform: translate(-30rem);
@@ -93,10 +93,12 @@ font-family: 'Poppins', sans-serif;
   }
 
   nav a {
-    padding: 1rem;
+    padding: .5rem;
     font-size: 2rem;
     color:#fff;
-
+    display:flex;
+    align-items:center;
+    gap:1rem;
   }
 
   nav.desktop a:hover {
