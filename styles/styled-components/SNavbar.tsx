@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const SNavbar = styled.main`
-font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 
   .logo {
     display: flex;
@@ -93,19 +93,19 @@ font-family: 'Poppins', sans-serif;
   }
 
   nav a {
-    padding: .5rem;
+    padding: 0.5rem;
     font-size: 2rem;
-    color:#fff;
-    display:flex;
-    align-items:center;
-    gap:1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
   }
 
   nav.desktop a:hover {
-    border: 1px solid;
     transition: all 0.4s;
   }
 
+  
   @media only screen and (min-width: 900px) {
     .toggle {
       display: none;
@@ -121,7 +121,60 @@ font-family: 'Poppins', sans-serif;
 
     nav.desktop ul {
       display: flex;
+      gap:4rem;
     }
+
+    li {
+      // text-align: center;
+      text-transform: capitalize;
+      position: relative;
+      transition: 0.5s;
+      margin: 0.8em;
+    }
+  
+    li::before,
+    li::after {
+      content: "";
+      position: absolute;
+      width: 0.6em;
+      height: 0.6em;
+      background-color: #1b361b;
+      border-radius: 50%;
+      transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
+      top: calc(50% - 0.6em / 2);
+    }
+  
+    li::before {
+      left: 0;
+      z-index: -1;
+    }
+  
+    li::after {
+      right: 0;
+      z-index: -2;
+    }
+  
+    li:hover {
+      color: white;
+    }
+  
+    li:hover::before,
+    li:hover::after {
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      background-color: #1b361b;
+    }
+  
+    li:hover::before {
+      top: 0;
+    }
+  
+    li:hover::after {
+      right: -0.4em;
+      filter: brightness(0.8);
+    }
+  
 
     nav a {
       padding: 1rem;
