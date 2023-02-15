@@ -28,10 +28,12 @@ const SFaq = styled.section`
     display:flex;
     justify-content:space-between;
     align-items:center;
+    cursor:pointer;
   }
 
   .ans{
     background: #1b361b;
+    color: #747474;
     padding:1rem;
     margin-bottom:1rem;
     font-size: 1.4rem;
@@ -39,10 +41,11 @@ const SFaq = styled.section`
     height:0;
     opacity:0;
     visibility:hidden;
+    border-bottom:1px solid;
   }
 
   .ans.show{
-    height:unset;
+    height:10rem;
     opacity:1;
     visibility:visible;
   }
