@@ -13,6 +13,7 @@ const SFooter = styled.footer`
 
   ul{
     font-size: 1.6rem;
+    color: #1b361b;
   }
 
   a{
@@ -29,23 +30,22 @@ const SFooter = styled.footer`
     border:1px solid #1b361b;
   }
 
-  // .connect{
-  //   font-size:1.9rem;
-  //   margin-top:2rem;
-  //   display:flex;
-  //   justify-content: space-between;
-  //   align-items: center;
-  //   color: #1b361b;
-  // }
+  .connect{
+    font-size:1.9rem;
+    display:flex;
+    justify-content: center;
+    color: #1b361b;
+    flex-direction:column;
+  }
 
-  // .connect button{
-  //   font-size:2.8rem;
-  //   margin:0 1rem;
-  // }
+  .connect button{
+    font-size:2.8rem;
+    margin: 1rem;
+  }
 
-  // .connect svg{
-  //   color: #1b361b;
-  // }
+  .connect svg{
+    color: #1b361b;
+  }
 
   // @media only screen and (min-width: 800px) {
   //   .links li {
