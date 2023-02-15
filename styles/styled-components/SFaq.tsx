@@ -14,26 +14,22 @@ const SFaq = styled.section`
     letter-spacing:1rem;
   }
 
+  > div{
+    margin:0 auto;
+    max-width:60rem;
+  }
+
   .question{
     font-size: 1.5rem;
     padding: 1rem;
     border-bottom: 1px solid;
-    max-width:60rem;
-    margin:0 auto;
   }
 
-  details {
-    font-size: 1.5rem;
-    padding: 1rem;
-    border-bottom: 1px solid;
-    max-width:60rem;
-    margin:0 auto;
-  }
-
-  summary {
+  .ans{
     background: #1b361b;
     padding:1rem;
     margin-bottom:1rem;
+    font-size: 1.5rem;
   }
 
   @media only screen and (min-width: 800px) {
