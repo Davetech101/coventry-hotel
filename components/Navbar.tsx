@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { AiOutlineCloseCircle } from "react-icons/ai";
+import { AiOutlineCloseCircle, AiTwotoneHome } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { RiHotelLine } from "react-icons/ri"
+import { RiHotelLine, RiToolsLine, RiContactsBookFill } from "react-icons/ri"
+import { FcAbout } from "react-icons/fc"
 import SNavbar from "../styles/styled-components/SNavbar";
 
 const Navbar = () => {

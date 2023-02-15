@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 const SNavbar = styled.main`
+font-family: 'Poppins', sans-serif;
+
   .logo {
     display: flex;
     align-items: center;
@@ -54,7 +56,7 @@ const SNavbar = styled.main`
   }
 
   nav.mobile {
-    background: #fff;
+    background: #1b361b;
     position: fixed;
     top: 0;
     left: 0;
@@ -93,7 +95,8 @@ const SNavbar = styled.main`
   nav a {
     padding: 1rem;
     font-size: 2rem;
-    color: #1b361b;
+    color:#fff;
+
   }
 
   nav.desktop a:hover {
