@@ -13,12 +13,12 @@ const SFooter = styled.footer`
 
   ul{
     font-size: 1.6rem;
-    color: #1b361b;
+    color: #747474;
   }
 
   a{
     font-size: 1.4rem;
-    color: #9c9c9c;
+    color: #1b361b;
   }
 
   a:hover{
