@@ -14,6 +14,14 @@ const SFaq = styled.section`
     letter-spacing:1rem;
   }
 
+  .question{
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-bottom: 1px solid;
+    max-width:60rem;
+    margin:0 auto;
+  }
+
   details {
     font-size: 1.5rem;
     padding: 1rem;
