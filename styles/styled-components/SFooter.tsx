@@ -8,7 +8,7 @@ const SFooter = styled.footer`
   nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
     flex-wrap:wrap;
     gap:4rem;
   }
@@ -54,20 +54,9 @@ const SFooter = styled.footer`
     color: #747474;
   }
 
-  // @media only screen and (min-width: 800px) {
-  //   .links li {
-  //     font-size: 2rem;
-  //   }
-
-  //   .connect{
-  //     font-size:2.2rem;
-  //   }
-
-  //   .connect button{
-  //     font-size:3.8rem;
-  //     margin:0 1rem;
-  //   }
-  // }
+  @media only screen and (max-width: 1200px) {
+    padding: 2rem;
+  }
 `;
 
 export default SFooter;
