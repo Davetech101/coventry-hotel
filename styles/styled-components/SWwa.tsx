@@ -13,6 +13,7 @@ const SWwa = styled.section`
   > p{
     font-size: 1.8rem;
     margin:2rem 0;
+    max-width:70rem;
   }
 
   main{
@@ -28,7 +29,7 @@ const SWwa = styled.section`
     box-shadow:1px 1px 10px rgba(0,0,0,.2);
     flex-shrink:0;
     width:30%;
-    min-width:20rem;
+    min-width:30rem;
     margin-bottom:3rem;
   } 
 
