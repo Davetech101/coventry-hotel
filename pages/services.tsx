@@ -18,7 +18,6 @@ export default function OurServices() {
       />
       <Services/>
       <WhyUs/>
-      <Instagram/>
       <Footer />
     </>
   );
