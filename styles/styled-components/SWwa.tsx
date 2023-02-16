@@ -28,6 +28,7 @@ const SWwa = styled.section`
     box-shadow:1px 1px 10px rgba(0,0,0,.2);
     flex-shrink:0;
     width:30%;
+    min-width:20rem;
     margin-bottom:3rem;
   } 
 
@@ -65,6 +66,10 @@ const SWwa = styled.section`
 
   main .img{
     border-radius:50%;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    padding: 4rem 0 4rem 2rem;
   }
 `;
 

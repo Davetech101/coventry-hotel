@@ -4,7 +4,7 @@ const SWhyUs = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 4rem;
+  margin: 4rem 0;
   position:relative;
 
   .green {
