@@ -50,9 +50,11 @@ const SFaq = styled.section`
     visibility:visible;
   }
 
-  @media only screen and (min-width: 800px) {
-    details{
-      font-size:2rem;
+  @media only screen and (max-width: 500px) {
+    .ans.show{
+      height:15rem;
+      opacity:1;
+      visibility:visible;
     }
   }
 `;
