@@ -38,7 +38,7 @@ const SHero = styled.section<Props>`
   }
 
   main p {
-    color: #9c9c9c;
+    color: #bcbcbc;
     text-align: center;
     font-size: 2rem;
     max-width: 49rem;
@@ -129,10 +129,10 @@ const SHero = styled.section<Props>`
     }
 
     main p {
-      color: #9c9c9c;
       text-align: left;
-      font-size: 2.3rem;
+      font-size: 3rem;
       margin-top:2rem;
+      max-width: 60rem;
     }
 
     main button {
@@ -156,8 +156,14 @@ const SHero = styled.section<Props>`
     main h2 {
       color: #d2d2d2;
       text-align: unset;
+      margin-top:-4rem;
       width: 100%;
-      font-size: 6rem;
+      font-size: 8rem;
+    }
+
+    main p {
+      font-size: 4rem;
+      max-width: 80rem;
     }
   }
 `
