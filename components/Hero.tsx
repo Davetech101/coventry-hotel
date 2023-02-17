@@ -19,7 +19,7 @@ const Hero = ({
         <p className="txt">{text}</p>
         {type === "home" ? (
           <button className="button">
-          See Video
+          See more
           <div className="button__horizontal"></div>
           <div className="button__vertical"></div>
         </button>

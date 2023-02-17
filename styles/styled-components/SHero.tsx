@@ -69,6 +69,7 @@ const SHero = styled.section<Props>`
     border-radius: 0;
     box-shadow: inset 0 0 0 var(--border-size) currentcolor;
     transition: background 0.8s ease;
+    text-align:center;
   }
   .button:hover {
     background: rgba(100, 0, 0, 0.03);
