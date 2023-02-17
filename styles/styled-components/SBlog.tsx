@@ -25,6 +25,16 @@ const SBlog = styled.section`
     flex-shrink: 0;
     width: 85%;
     min-height: 20rem;
+    transition:all .4s;
+  }
+
+  main > div:hover {
+    transform:scale(1.11);
+    cursor:pointer;
+  }
+
+  main > div:active {
+    transform:scale(.1);
   }
 
   .text {
