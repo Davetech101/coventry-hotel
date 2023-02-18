@@ -16,6 +16,7 @@ const SGetInTouch = styled.section`
   p {
     font-size: 1.8rem;
     margin: 2rem 0;
+    max-width:70rem;
   }
 
   main {
@@ -31,6 +32,7 @@ const SGetInTouch = styled.section`
     flex-direction: column;
     margin: 3rem 0;
     width: 100%;
+    max-width:50rem;
   }
 
   label {
@@ -46,6 +48,10 @@ const SGetInTouch = styled.section`
     transition: all 0.1s;
   }
 
+  textarea{
+    min-height:30rem;
+  }
+
   input:focus,
   textarea:focus {
     outline: 1px solid black;
@@ -58,8 +64,13 @@ const SGetInTouch = styled.section`
     border-radius: 2rem;
     padding: 1.5rem 3rem;
     transition: all 0.4s;
-    width: 10rem;
+    width: 20rem;
     margin: 3rem auto;
+    transition:all .5s;
+  }
+
+  form > button:hover{
+    width:100%;
   }
 
   .contact {
