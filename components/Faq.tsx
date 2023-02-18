@@ -9,7 +9,7 @@ const Faq = () => {
     {
       id: "1",
       q: "Is it free?",
-      a: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eos debitis dignissimos provident nulla vero quae nesciunt cum autem quam?",
+      a: "  ?",
     },
     {
       id: "2",
