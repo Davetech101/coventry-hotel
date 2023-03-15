@@ -9,7 +9,7 @@ export default function about() {
     <>
       <Navbar />
       <Hero
-        text="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        text="Get to know more about us, our history and how far we've come."
         title="About us"
         type=""
         bgImg="aboutHero"
