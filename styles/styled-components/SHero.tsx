@@ -125,7 +125,7 @@ const SHero = styled.section<Props>`
     main h2 {
       color: #d2d2d2;
       text-align: left;
-      font-size: 4.5rem;
+      font-size: 4rem;
     }
 
     main p {
@@ -158,7 +158,7 @@ const SHero = styled.section<Props>`
       text-align: unset;
       margin-top:-4rem;
       width: 100%;
-      font-size: 8rem;
+      font-size: 6rem;
     }
 
     main p {
