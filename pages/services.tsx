@@ -11,7 +11,7 @@ export default function OurServices() {
     <>
       <Navbar />
       <Hero
-        text="Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+        text="We offer the best services here in Coventry, be rest assured you'll have a great time."
         title="Our Services"
         type=""
         bgImg="serviceHero"
