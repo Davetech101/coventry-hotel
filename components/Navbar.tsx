@@ -5,16 +5,18 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RiHotelLine, RiToolsLine, RiContactsBookFill } from "react-icons/ri";
 import { FcAbout } from "react-icons/fc";
 import SNavbar from "../styles/styled-components/SNavbar";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+  const router = useRouter();
   const [scrolled, setScrolled] = useState(false);
   const [showNav, setShowNav] = useState(false);
 
   const links = [
-    { loc: "Home", svg: <AiTwotoneHome /> },
-    { loc: "Services", svg: <RiToolsLine /> },
-    { loc: "About", svg: <FcAbout /> },
-    { loc: "Contact", svg: <RiContactsBookFill /> },
+    { name: "Home", href: "/", svg: <AiTwotoneHome /> },
+    { name: "Services", href: "/services", svg: <RiToolsLine /> },
+    { name: "About", href: "/about", svg: <FcAbout /> },
+    { name: "Contact", href: "/contact", svg: <RiContactsBookFill /> },
   ];
 
   useEffect(() => {
@@ -55,14 +57,20 @@ const Navbar = () => {
           <ul>
             {links.map((link) => {
               return (
-                <li key={link.loc}>
+                <li key={link.href}>
                   <Link
                     href={
-                      link.loc === "Home" ? "/" : `/${link.loc.toLocaleLowerCase()}`
+                      link.name === "Home"
+                        ? "/"
+                        : `${link.href}`
                     }
-                    className="nav"
+                    className={
+                      router.pathname === link.href
+                        ? "nav active"
+                        : "nav"
+                    }
                   >
-                    {link.loc}
+                    {link.name}
                   </Link>
                 </li>
               );
@@ -79,13 +87,21 @@ const Navbar = () => {
         <ul>
           {links.map((link) => {
             return (
-              <li key={link.loc}>
+              <li key={link.href}>
                 <Link
-                  href={link.loc === "Home" ? "/" : `/${link.loc.toLocaleLowerCase()}`}
-                  className="nav"
+                  href={
+                    link.name === "Home"
+                      ? "/"
+                      : `${link.href}`
+                  }
+                  className={
+                    router.pathname === link.href
+                      ? "nav active"
+                      : "nav"
+                  }
                 >
                   {link.svg}
-                  {link.loc}
+                  {link.name}
                 </Link>
               </li>
             );
