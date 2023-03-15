@@ -28,8 +28,25 @@ const SHero = styled.section<Props>`
     position: absolute;
     padding: 2rem;
     z-index: 0;
+    animation: hero 2s;
   }
-
+  
+  @keyframes hero {
+    0% {
+      transform: translateX(-50rem);
+      opacity:0;
+    }
+  
+    75% {
+      transform: translateX(2rem);
+      opacity:.75;
+    }
+  
+    100% {
+      transform: translateX(0);
+      opacity:1;
+    }
+  }
   main h2 {
     color: #d2d2d2;
     text-align: center;
