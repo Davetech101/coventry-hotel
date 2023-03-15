@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
-const SNavbar = styled.main`
+const SNavbar = styled.div`
   font-family: "Poppins", sans-serif;
 
+  
   .logo {
     display: flex;
     align-items: center;
     gap: 1rem;
   }
-
+  
   header {
     display: flex;
     justify-content: space-between;
@@ -18,16 +19,34 @@ const SNavbar = styled.main`
     top: 0;
     left: 0;
     width: 100%;
+    animation: navbar 2s;
     z-index: 10;
   }
 
+  @keyframes navbar {
+    0% {
+      transform: translateY(-5rem);
+      opacity: 0;
+    }
+
+    75% {
+      transform: translateY(1rem);
+      opacity: 0.75;
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
   .scrolled {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
     background: rgba(0, 0, 0, 0.3);
   }
 
   header a {
-    color: #d2d2d2;;
+    color: #d2d2d2;
     font-size: 2rem;
     font-family: "Poppins", sans-serif;
   }
@@ -95,7 +114,7 @@ const SNavbar = styled.main`
   nav a {
     padding: 0.5rem;
     font-size: 2rem;
-    color: #d2d2d2;;
+    color: #d2d2d2;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -105,7 +124,6 @@ const SNavbar = styled.main`
     transition: all 0.4s;
   }
 
-  
   @media only screen and (min-width: 900px) {
     .toggle {
       display: none;
@@ -121,7 +139,7 @@ const SNavbar = styled.main`
 
     nav.desktop ul {
       display: flex;
-      gap:4rem;
+      gap: 4rem;
     }
 
     li {
@@ -130,60 +148,59 @@ const SNavbar = styled.main`
       transition: 0.5s;
       margin: 0.8em;
     }
-  
+
     li::before,
     li::after {
       content: "";
       position: absolute;
       width: 0.6em;
       height: 0.6em;
-      background-color: #d2d2d2;;
+      background-color: #d2d2d2;
       border-radius: 50%;
       transition: 0.5s cubic-bezier(0.5, -0.5, 0.25, 1.5);
       top: calc(50% - 0.9em / 2);
     }
-  
+
     li::before {
       left: 0;
       z-index: -1;
     }
-  
+
     li::after {
       right: 0;
       z-index: -2;
     }
-  
+
     li:hover {
       color: #1b361b;
     }
-  
+
     li:hover::before,
     li:hover::after {
       width: 100%;
       height: 100%;
       border-radius: 0;
-      background-color: #d2d2d2;;
+      background-color: #d2d2d2;
     }
-  
+
     li:hover::before {
-      top:0;
+      top: 0;
     }
-  
+
     li:hover::after {
       right: -2rem;
-      top:2rem;
+      top: 2rem;
       filter: brightness(0.8);
     }
-  
 
     nav a {
-      padding:1rem 3rem;
+      padding: 1rem 3rem;
       font-size: 2rem;
-      color: #d2d2d2;;
+      color: #d2d2d2;
     }
 
-    nav a:hover{
-      color:#1b361b;;
+    nav a:hover {
+      color: #1b361b;
     }
 
     .modal {
