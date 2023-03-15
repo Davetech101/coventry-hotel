@@ -8,7 +8,7 @@ const Faq = () => {
   const faq = [
     {
       id: "1",
-      q: "Is it free?",
+      q: "what is my expectation?",
       a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eos debitis dignissimos provident nulla vero quae nesciunt cum autem quam?",
     },
     {
@@ -18,7 +18,7 @@ const Faq = () => {
     },
     {
       id: "3",
-      q: "How to install this template?",
+      q: "What do we offer?",
       a: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum eos debitis dignissimos provident nulla vero quae nesciunt cum autem quam?",
     },
   ];
