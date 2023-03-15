@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const SNavbar = styled.div`
   font-family: "Poppins", sans-serif;
-
   
   .logo {
     display: flex;
@@ -118,6 +117,10 @@ const SNavbar = styled.div`
     display: flex;
     align-items: center;
     gap: 1rem;
+  }
+
+  nav a.active{
+    TEXT-DECORATION:UNDERLINE;
   }
 
   nav.desktop a:hover {
