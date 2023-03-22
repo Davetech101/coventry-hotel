@@ -4,7 +4,7 @@ import SBooking from "../styles/styled-components/SBooking";
 const Booking = () => {
   return (
     <SBooking>
-      <form>
+      <form onSubmit={onsubmit}>
         <div className="">
           <label htmlFor="arrival">Arrival Date</label>
           <input type="date" name="" id="arrival" required />
