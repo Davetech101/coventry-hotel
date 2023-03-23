@@ -2,11 +2,11 @@ import React from "react";
 import SBooking from "../styles/styled-components/SBooking";
 
 const Booking = () => {
-  const onsubmit = (e:any) => {
-    e.target.preventDefault()
-    console.log(e);
+  // const onsubmit = (e:any) => {
+  //   e.target.preventDefault()
+  //   console.log(e);
     
-  }
+  // }
   return (
     <SBooking>
       <form onSubmit={onsubmit}>
